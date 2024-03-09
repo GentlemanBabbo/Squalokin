@@ -146,7 +146,7 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="5e3d7e01-ea5e-c120-3b3f-b6015bdec925" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="bda2b487-c6b3-43fd-9da1-83de8b1df4e3" />
+					<attribute id="ID" type="FixedString" value="9e218117-dd2d-4f86-8cef-699392d59530" />
 					<attribute id="MaterialType" type="uint8" value="18" />
 					<attribute id="Name" type="LSString" value="GOLIATH_FS_NKD" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
