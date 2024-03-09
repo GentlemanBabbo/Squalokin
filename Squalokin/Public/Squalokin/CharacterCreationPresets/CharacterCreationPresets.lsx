@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="0" build="47"/>
+  <region id="CharacterCreationPresets">
+    <node id="root">
+      <children>
+				<node id="CharacterCreationPreset">
+          <attribute id="BodyShape" type="uint8" value="0"/> 0 means smol, 1 means stronk
+          <attribute id="BodyType" type="uint8" value="1"/> 1 means wimmin, 0 means man
+          <attribute id="CloseUpA" type="LSString" value="ELF_F_Camera_Closeup_A"/> do not touch these three, cameras for in CC
+          <attribute id="CloseUpB" type="LSString" value="ELF_F_Camera_Closeup_B"/> do not touch these three, cameras for in CC
+          <attribute id="Overview" type="LSString" value="ELF_F_Camera_Overview_A"/>  do not touch these three, cameras for in CC
+          <attribute id="RaceUUID" type="guid" value="39e235f4-69e1-4e8c-9017-786693891655"/> base Custom Main race
+          <attribute id="RootTemplate" type="guid" value="d743b68b-6f19-42d6-b684-5a16646aa51d"/> roottemplates 
+					<attribute id="SubRaceUUID" type="guid" value="4b571ca6-3b3d-4664-9d4c-672e6dd11274"/>  your subrace uuid
+          <attribute id="UUID" type="guid" value="ebae82cc-9a62-4118-a503-26378e1a75c4"/> must be unique
+          <attribute id="VOLinesTableUUID" type="guid" value="14df8f45-90af-4bd0-8024-42624da9976e"/> do not touch
+        </node>
+				<node id="CharacterCreationPreset">
+          <attribute id="BodyShape" type="uint8" value="0"/>
+          <attribute id="BodyType" type="uint8" value="0"/>
+          <attribute id="CloseUpA" type="LSString" value="ELF_M_Camera_Closeup_A"/>
+          <attribute id="CloseUpB" type="LSString" value="ELF_M_Camera_Closeup_B"/>
+          <attribute id="Overview" type="LSString" value="ELF_M_Camera_Overview_A"/>
+          <attribute id="RaceUUID" type="guid" value="39e235f4-69e1-4e8c-9017-786693891655"/>
+          <attribute id="RootTemplate" type="guid" value="63742aba-42f5-4ca3-8c0a-18ea6a3d8990"/>
+					<attribute id="SubRaceUUID" type="guid" value="4b571ca6-3b3d-4664-9d4c-672e6dd11274"/>
+          <attribute id="UUID" type="guid" value="b4d9113e-871a-4fc0-8e58-77b0c5b97432"/>
+          <attribute id="VOLinesTableUUID" type="guid" value="14df8f45-90af-4bd0-8024-42624da9976e"/>
+        </node>
+				<node id="CharacterCreationPreset">
+          <attribute id="BodyShape" type="uint8" value="1"/>
+          <attribute id="BodyType" type="uint8" value="1"/>
+          <attribute id="CloseUpA" type="LSString" value="HUM_FB_Camera_Closeup_A"/>
+          <attribute id="CloseUpB" type="LSString" value="HUM_FB_Camera_Closeup_B"/>
+          <attribute id="Overview" type="LSString" value="HUM_FB_Camera_Overview_A"/>
+          <attribute id="RaceUUID" type="guid" value="39e235f4-69e1-4e8c-9017-786693891655"/>
+          <attribute id="RootTemplate" type="guid" value="34107858-d9a5-4835-adde-7440a05df46b"/>
+					<attribute id="SubRaceUUID" type="guid" value="4b571ca6-3b3d-4664-9d4c-672e6dd11274"/>
+          <attribute id="UUID" type="guid" value="9cd9d70c-6563-4cc2-a793-f9747a93dd28"/>
+          <attribute id="VOLinesTableUUID" type="guid" value="14df8f45-90af-4bd0-8024-42624da9976e"/>
+        </node>
+				<node id="CharacterCreationPreset">
+          <attribute id="BodyShape" type="uint8" value="1"/>
+          <attribute id="BodyType" type="uint8" value="0"/>
+          <attribute id="CloseUpA" type="LSString" value="HUM_MB_Camera_Closeup_A"/>
+          <attribute id="CloseUpB" type="LSString" value="HUM_MB_Camera_Closeup_B"/>
+          <attribute id="Overview" type="LSString" value="HUM_MB_Camera_Overview_A"/>
+          <attribute id="RaceUUID" type="guid" value="39e235f4-69e1-4e8c-9017-786693891655"/>
+          <attribute id="RootTemplate" type="guid" value="ee622cf0-c18d-4264-939c-9f0e6327be38"/>
+					<attribute id="SubRaceUUID" type="guid" value="4b571ca6-3b3d-4664-9d4c-672e6dd11274"/>
+          <attribute id="UUID" type="guid" value="cd866fa9-04f2-4bdd-ad1a-75a157a8d535"/>
+          <attribute id="VOLinesTableUUID" type="guid" value="14df8f45-90af-4bd0-8024-42624da9976e"/>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>
