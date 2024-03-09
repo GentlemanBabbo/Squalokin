@@ -5,14 +5,14 @@
     <node id="root">
       <children>
         <node id="Race">
-            <attribute id="Description" type="TranslatedString" handle="h7f93509dg10f6g4dafga9e7gcb64447f632c" version="1" />   description race 
-            <attribute id="DisplayName" type="TranslatedString" handle="h6249cc7fg5d32g4596g8622g60c50d7e02d4" version="1" />   subrace
+            <attribute id="Description" type="TranslatedString" handle="h0f02825dg104eg4f4dg8c06g2b6d32154f0f" version="1" />   description race 
+            <attribute id="DisplayName" type="TranslatedString" handle="h8a37aaefg2b32g4d58ga27eg159ff8a4e222" version="1" />   subrace
             <attribute id="DisplayTypeUUID" type="guid" value="899d275e-9893-490a-9cd5-be856794929f" /> leave this as humanoid
-            <attribute id="Name" type="FixedString" value="Custom_Race_MainRace" />       internal name for race
+            <attribute id="Name" type="FixedString" value="Squalokin_Race_MainRace" />       internal name for race
             <attribute id="ParentGuid" type="guid" value="899d275e-9893-490a-9cd5-be856794929f" />      subrace of Humanoid, dont touch
-            <attribute id="ProgressionTableUUID" type="guid" value="257bb459-3a9e-4bea-b4e2-349e3a9ac3ef" />    the level up stuff under the Progressions folder, diff from subrace
-            <attribute id="RaceSoundSwitch" type="FixedString" value="Elf" />           sound it makes when you select the race
-            <attribute id="UUID" type="guid" value="39e235f4-69e1-4e8c-9017-786693891655" /> Race UUID, keep this for adding hairs etc
+            <attribute id="ProgressionTableUUID" type="guid" value="cbbbf2e4-a580-4255-b4a9-0a27f9938a67" />    the level up stuff under the Progressions folder, diff from subrace
+            <attribute id="RaceSoundSwitch" type="FixedString" value="Dragonborn" />           sound it makes when you select the race
+            <attribute id="UUID" type="guid" value="3a63cb45-2c8a-4ebf-a285-3ae2d24b6f84" /> Race UUID, keep this for adding hairs etc
                 <children>
                         <node id="EyeColors">
                             <attribute id="Object" type="guid" value="b3ff0d4e-50c3-442e-3d8b-e30a5cf73368" />
@@ -1637,14 +1637,14 @@
                 </children>
         </node>
         <node id="Race">
-            <attribute id="Description" type="TranslatedString" handle="hadac7b69g050ag4792gb8dbgdf70f1d297e4" version="1" />   description sub race
-            <attribute id="DisplayName" type="TranslatedString" handle="h8b6b17e3g220bg4682g818bg45757c672e25" version="1" />   name subrace
+            <attribute id="Description" type="TranslatedString" handle="hdea75f7fg816cg4accga57agc582d30af2c1" version="1" />   description sub race
+            <attribute id="DisplayName" type="TranslatedString" handle="h4c2309e8g7832g4c6cgb79agb5cba31d35b6" version="1" />   name subrace
             <attribute id="DisplayTypeUUID" type="guid" value="899d275e-9893-490a-9cd5-be856794929f" /> leave this as humanoid
-            <attribute id="Name" type="FixedString" value="Custom_Race_SubRace" />       internal name for subrace
-            <attribute id="ParentGuid" type="guid" value="39e235f4-69e1-4e8c-9017-786693891655" />      subrace of Custom Race Main
-            <attribute id="ProgressionTableUUID" type="guid" value="8d7d65ad-ed3f-4002-acfc-70fa10d2b570" />    the level up stuff under the Progressions folder, diff from main race
-            <attribute id="RaceSoundSwitch" type="FixedString" value="Elf" />           sound it makes when you select the subrace
-            <attribute id="UUID" type="guid" value="4b571ca6-3b3d-4664-9d4c-672e6dd11274" /> Race UUID, keep this for adding hairs etc
+            <attribute id="Name" type="FixedString" value="Daku_Race_SubRace" />       internal name for subrace
+            <attribute id="ParentGuid" type="guid" value="3a63cb45-2c8a-4ebf-a285-3ae2d24b6f84" />      subrace of Custom Race Main
+            <attribute id="ProgressionTableUUID" type="guid" value="63052b18-f60a-4781-967c-1a609ff226df" />    the level up stuff under the Progressions folder, diff from main race
+            <attribute id="RaceSoundSwitch" type="FixedString" value="Dragonborn" />           sound it makes when you select the subrace
+            <attribute id="UUID" type="guid" value="7fa2b41f-7323-4304-a27a-6a0bb37b6cc1" /> Race UUID, keep this for adding hairs etc
                 <children>                 
                 </children>
         </node>
