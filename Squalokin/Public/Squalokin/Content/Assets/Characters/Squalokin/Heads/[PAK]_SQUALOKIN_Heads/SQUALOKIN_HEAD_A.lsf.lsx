@@ -7,17 +7,17 @@
 				<node id="Resource">
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="DynamicPhysicsResourceID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
-					<attribute id="ID" type="FixedString" value="3a89aef9-653e-4142-971e-dd467b8489f5" />
+					<attribute id="ID" type="FixedString" value="a1800d80-4609-4c26-83bd-ff844fcbbb68" />
 					<attribute id="IKRigResourceID" type="FixedString" value="f45d73e2-c30a-82c0-2e4b-f02e907f9550" />
 					<attribute id="MirrorTableResourceID" type="FixedString" value="" />
-					<attribute id="Name" type="LSString" value="Abomination_MS_Head_Base" />
+					<attribute id="Name" type="LSString" value="Squalokin_M_NKD_Head_Base" />
 					<attribute id="PreviewAnimationResource" type="FixedString" value="" />
 					<attribute id="PreviewVisualResource" type="FixedString" value="" />
 					<attribute id="RagdollResourceID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Abomination/[PAK]_ABOMINATION_Head/ABOMINATION_HEAD_A/ABOMINATION_MS_Head_base.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Squalokin/[PAK]_SQUALOKIN_Head/Squalokin_M_NKD_Head_Base.GR2" />
 					<attribute id="SpringResourceID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/Abomination/[PAK]_ABOMINATION_Head/ABOMINATION_HEAD_A/ABOMINATION_MS_Head_base.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Squalokin/[PAK]_SQUALOKIN_Head/Squalokin_M_NKD_Head_Base.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144396663052566828" />
 					<children>
 						<node id="Bones">
@@ -1571,9 +1571,9 @@
 			<children>
 				<node id="Resource">
 					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
-					<attribute id="ID" type="FixedString" value="74c4fd57-6680-42b3-b6cc-2a68f4e98c3e" />
+					<attribute id="ID" type="FixedString" value="ea5d829d-2eb9-4b61-9beb-fa5f92eaf408" />
 					<attribute id="MaterialType" type="uint8" value="18" />
-					<attribute id="Name" type="LSString" value="Abomination_MS_Head_A" />
+					<attribute id="Name" type="LSString" value="Squalokin_M_Head_A" />
 					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_Skin_Head_v3.lsf" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
@@ -2377,9 +2377,9 @@
 		<node id="AnimationSetBank">
 			<children>
 				<node id="Resource">
-					<attribute id="ID" type="FixedString" value="ff549cac-05e7-4eef-b05c-e112775db430" />
+					<attribute id="ID" type="FixedString" value="0a391d49-f0af-4964-a87e-7f69b10a34bb" />
 					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="Abomination_MS_Head_A" />
+					<attribute id="Name" type="LSString" value="Squalokin_M_Head_A" />
 					<attribute id="PreviewVisualResourceID" type="guid" value="00000000-0000-0000-0000-000000000000" />
 					<attribute id="SourceFile" type="LSString" value="" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
@@ -2412,18 +2412,18 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="1dcf50ab-a802-49d1-8d4f-19df1070ad1d" />
+					<attribute id="ID" type="FixedString" value="2aba038d-26be-482a-964f-21545912a3d0" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="ABOMINATION_MS_Head_A" />
+					<attribute id="Name" type="LSString" value="Squalokin_MS_Head_A" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
-					<attribute id="SkeletonResource" type="FixedString" value="658fd10c-b8b2-4e47-214e-959e591b6881" />
+					<attribute id="SkeletonResource" type="FixedString" value="025ac1d2-72e7-9186-2ccc-5397948d815a" />
 					<attribute id="SkeletonSlot" type="FixedString" value="1" />
 					<attribute id="Slot" type="FixedString" value="Head" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Abomination/[PAK]_ABOMINATION_Head/ABOMINATION_MS_Head_A.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Squalokin/[PAK]_SQUALOKIN_Head/Squalokin_M_Head_A.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/Abomination/[PAK]_ABOMINATION_Head/ABOMINATION_MS_Head_A.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Squalokin/[PAK]_SQUALOKIN_Head/Squalokin_M_Head_A.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725665" />
 					<children>
 						<node id="AnimationSetOverrides">
@@ -2443,33 +2443,28 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="d96192bb-4233-af3d-5510-fff51cc4ee43" />
-							<attribute id="ObjectID" type="FixedString" value="ABOMINATION_MS_Head_A.1_ABOM_MS_NKD_Head_Mesh.0" />
+							<attribute id="MaterialID" type="FixedString" value="fbbcbd6c-08be-a34e-4b66-4a83069c40b4" />
+							<attribute id="ObjectID" type="FixedString" value="Squalokin_M_Head_A.1_SHARK_M_NKD_Head_A_Mesh.0" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="d96192bb-4233-af3d-5510-fff51cc4ee43" />
-							<attribute id="ObjectID" type="FixedString" value="ABOMINATION_MS_Head_A.2_ABOM_MS_NKD_Head_A_Eyelashes_Mesh.1" />
+							<attribute id="MaterialID" type="FixedString" value="d5163cc5-e34b-f777-1bdd-a4dc9fb16da6" />
+							<attribute id="ObjectID" type="FixedString" value="Squalokin_M_Head_A.2_SHARK_M_NKD_Head_A_Mouth_Interior_Mesh.1" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="57fab18d-00a6-4dae-a14c-340f24611810" />
-							<attribute id="ObjectID" type="FixedString" value="ABOMINATION_MS_Head_A.3_ABOM_MS_NKD_Head_A_Eyes_Mesh.2" />
+							<attribute id="MaterialID" type="FixedString" value="139d7540-7c20-e1ab-0c41-9126c5ff828d" />
+							<attribute id="ObjectID" type="FixedString" value="Squalokin_M_Head_A.3_SHARK_M_NKD_Head_A_Eyes_Mesh.2" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="d96192bb-4233-af3d-5510-fff51cc4ee43" />
-							<attribute id="ObjectID" type="FixedString" value="ABOMINATION_MS_Head_A.4_ABOM_A_InnerMouth_Mesh.3" />
+							<attribute id="MaterialID" type="FixedString" value="8089f3a7-638b-1768-b6a4-43e1b0892e23" />
+							<attribute id="ObjectID" type="FixedString" value="Squalokin_M_Head_A.4_SHARK_M_NKD_Head_A_Tearline_Mesh.3" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="6e22e793-7992-6cdf-5f01-a02bb1e4d02d" />
-							<attribute id="ObjectID" type="FixedString" value="ABOMINATION_MS_Head_A.5_ABOM_MS_NKD_Head_A_Tearline_Mesh.4" />
-						</node>
-				<node id="Objects">
-							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="d96192bb-4233-af3d-5510-fff51cc4ee43" />
-							<attribute id="ObjectID" type="FixedString" value="ABOMINATION_MS_Head_A.6_ABOM_MS_NKD_Fur_A_Mesh.5" />
+							<attribute id="MaterialID" type="FixedString" value="b09f1893-d49d-483e-2dc7-0a989741aa9e" />
+							<attribute id="ObjectID" type="FixedString" value="Squalokin_M_Head_A.5_SHARK_M_NKD_Head_A_Eyeshadow_Mesh.4" />
 						</node>
 					</children>
 				</node>
