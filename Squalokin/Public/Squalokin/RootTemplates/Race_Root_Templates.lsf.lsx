@@ -115,7 +115,7 @@
 					<attribute id="Icon" type="FixedString" value="f0c009b2-7868-784e-f2fc-dde5ac934aba-_(Icon_Elf_Male)" />
 					<attribute id="Stats" type="FixedString" value="HeroElfMale" /> dont change
 					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" /> dont change
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="867083fb-71f0-4a28-b11c-cbd852c39054" /> which models to load
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="f2c19547-6c0f-4f7d-b3f9-6123beb2cedd" /> which models to load
 					<attribute id="PortraitVisualResourceID" type="FixedString" value="f7af9f10-cd33-3b88-e96a-d52952e81f5b" />
 					<attribute id="Race" type="guid" value="4b571ca6-3b3d-4664-9d4c-672e6dd11274" /> define race as Custom Race
 					<children>
