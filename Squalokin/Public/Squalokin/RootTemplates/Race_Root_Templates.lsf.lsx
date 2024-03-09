@@ -84,7 +84,7 @@
 					<attribute id="Name" type="LSString" value="Squalokin_Female_Daku_Player_Strong" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
-					<attribute id="ParentTemplateId" type="FixedString" value="d743b68b-6f19-42d6-b684-5a16646aa51d" /> inherits from normal CustomRace body
+					<attribute id="ParentTemplateId" type="FixedString" value="34c7c513-030a-43ec-8336-9befd735c00c" /> inherits from normal CustomRace body
 					<attribute id="Icon" type="FixedString" value="eb370ddf-f7a4-4349-116e-f489556bab1d-_(Icon_Human_Female_Strong)" />
 					<attribute id="EquipmentRace" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> stronk armour set
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="82c44e52-0d0d-433b-b276-cf95582a64d4" /> which models to load
@@ -145,7 +145,7 @@
 					<attribute id="Name" type="LSString" value="Squalokin_Male_Daku_Player_Strong" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
-					<attribute id="ParentTemplateId" type="FixedString" value="63742aba-42f5-4ca3-8c0a-18ea6a3d8990" /> inherits from normal body Custom Race
+					<attribute id="ParentTemplateId" type="FixedString" value="266448e6-f110-4328-b69d-44f0d5561413" /> inherits from normal body Custom Race
 					<attribute id="Icon" type="FixedString" value="dbe45e58-e009-91ae-91f1-e5311cbef090-_(Icon_Human_Male_Strong)" />
 					<attribute id="EquipmentRace" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="097242a5-4a5e-4502-b27c-37d7453b5ff2" /> which models to load
