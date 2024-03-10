@@ -13,6 +13,10 @@
                     <attribute id="UUID" type="guid" value="19b5692a-6cf9-4b76-8752-6108b6c27647"/> the UUID, needs to be unique
                 </node>
                 <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="Squalokin_Critical"/> the passive list
+                    <attribute id="UUID" type="guid" value="1c31615c-e587-468e-a97c-1e1487454d78"/> the UUID, needs to be unique
+                </node>
+                <node id="PassiveList">
                     <attribute id="Passives" type="LSString" value="FinishingStrike"/> the passive list
                     <attribute id="UUID" type="guid" value="a424a7c9-ccb9-42d5-978f-3f0f99bdb9db"/> the UUID, needs to be unique
                 </node>
