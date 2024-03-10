@@ -27,6 +27,17 @@ type "PassiveData"
 data "Properties" "IsHidden"
 data "DynamicAnimationTag" "aafbe780-d237-416e-9d05-e03070c9dbee"
 
+new entry "FinishingStrike"
+type "PassiveData"
+data "DisplayName" "h91cc359bgd395g4009g9d4eg9a25fc7f7b33;1"
+data "Description" "h8c720c86g1f4dg4b78g8f17g2ef2b9754ceb;1"
+data "DescriptionParams" "DealDamage(2d6,Slashing); 50"
+data "Icon" "GenericIcon_DamageType_Physical"
+data "Properties" "Highlighted"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "HasHPPercentageWithoutTemporaryHPLessThan(50, context.Target) and Character()"
+data "StatsFunctors" "DealDamage(2d6,Slashing)"
+
 <!--------------------- Custom Race Spells --------------------->
 
 //Rip and Tear//
