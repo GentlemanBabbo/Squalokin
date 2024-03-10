@@ -5,8 +5,12 @@
         <node id="root">
             <children>
                 <node id="PassiveList">
-                    <attribute id="Passives" type="LSString" value="FightingStyle_Archery,FightingStyle_Defense,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_Protection,FightingStyle_TwoWeaponFighting"/> the passive list
-                    <attribute id="UUID" type="guid" value="3933da0d-897a-4fd4-b37c-408c1afde2d3"/> the UUID, needs to be unique
+                    <attribute id="Passives" type="LSString" value="Squalokin_BiteAnimTag"/> the passive list
+                    <attribute id="UUID" type="guid" value="9d70bad6-c0b4-4089-94ff-36d492d1b18a"/> the UUID, needs to be unique
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value=""/> the passive list
+                    <attribute id="UUID" type="guid" value="19b5692a-6cf9-4b76-8752-6108b6c27647"/> the UUID, needs to be unique
                 </node>
             </children>
         </node>
