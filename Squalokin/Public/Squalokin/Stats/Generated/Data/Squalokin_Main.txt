@@ -1,0 +1,44 @@
+<!--------------------- Custom Race Passives --------------------->
+
+new entry "Squalokin_Race_Passives"
+type "PassiveData"
+data "DisplayName" "h18f631efgdfeeg4683gac99g72a7dff7e657"
+data "Description" "hb1c0e0d5g1cbag401agb788gc5a4fa133bac"
+data "DescriptionParams" "Distance(12)"
+data "Icon" "PassiveFeature_Darkvision"
+data "Properties" "Highlighted"
+data "Boosts" "ActionResource(Movement,9,0);DarkvisionRangeMin(12);ActiveCharacterLight(051648e6-f05a-e41f-e398-ffd5cd148989)"
+
+// Bite Animation Tag //
+
+new entry "Squalokin_BiteAnimTag"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "DynamicAnimationTag" "aafbe780-d237-416e-9d05-e03070c9dbee"
+
+<!--------------------- Custom Race Spells --------------------->
+
+//Rip and Tear
+
+new entry "Target_Rip_Tear"
+type "SpellData"
+data "SpellType" "Target"
+data "TargetRadius" "1.5"
+data "DeathType" "DoT"
+data "Cooldown" "OncePerTurn"
+data "SpellSuccess" "DealDamage(LevelMapValue(RTDamage)+StrengthModifier,Piercing);ApplyStatus(BLEEDING,100,2);RegainHitPoints(SELF,LevelMapValue(RTHeal)+SpellCastingAbilityModifier);GROUND:CreateSurface(1,0,Blood)"
+data "TargetConditions" "not Self() and not Item() and not Tagged('PLANT') and not Tagged('ELEMENTAL') and not Tagged('CONSTRUCT') and not Tagged('OOZE') and not HasStatus('SG_Petrified',context.Target)"
+data "Icon" "Icon_Feast_Living"
+data "DisplayName" "h96b4e6c7g8187g4275g99fcg561375ad14b9;1"
+data "Description" "hc39d3275gee05g4cb4g8966gcba425c5fcb3;2"
+data "TooltipDamageList" "DealDamage(LevelMapValue(RTDamage)+StrengthModifier,Piercing);RegainHitPoints(SELF,LevelMapValue(RTHeal)+SpellCastingAbilityModifier)"
+data "CastSound" "Action_Cast_VampireBite"
+data "TargetSound" "Action_Impact_VampireBite"
+data "CastTextEvent" "Cast"
+data "UseCosts" "BonusActionPoint:1"
+data "SpellAnimation" "f13da615-33ae-412e-8314-4ac4fc560dbf,,;0b0775f0-96b0-4f8e-994d-5bfbae3ec0f0,,;01fe9641-f630-4ed2-8035-1186dc7a5803,c5dd4205-ab94-4dcc-85a8-837c5a2fd523,8a23f655-cf77-484e-a1e8-e764e5674e88;e6643712-8521-4c83-b518-1a10d61da4ef,9b8c3396-5a7f-4472-9fda-cab6565b497b,643a9702-c775-48db-98e6-74af401f2f5a;f28943e2-f5e6-4133-80ef-8c7c4f628920,,;1c693368-c595-46bd-b8c5-e406f9486ef8,,;a6ff21b9-291e-44c8-bf87-8de3703c5e97,,;,,;,,"
+data "SpellFlags" "IsMelee;Stealth;IsHarmful;CannotTargetTerrain;CannotTargetItems"
+data "SpellAnimationIntentType" "Aggressive"
+data "TargetEffect" "dc2d6fa3-5fe4-4aa0-bc5e-20213fd4e065"
+data "Sheathing" "Sheathed"
+data "DamageType" "Piercing"
