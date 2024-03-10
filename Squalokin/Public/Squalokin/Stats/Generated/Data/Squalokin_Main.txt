@@ -27,6 +27,13 @@ type "PassiveData"
 data "Properties" "IsHidden"
 data "DynamicAnimationTag" "aafbe780-d237-416e-9d05-e03070c9dbee"
 
+new entry "Squalokin_Critical"
+type "PassiveData"
+data "DisplayName" "h10624745g5613g407bg9aefg7788492f5cde;1"
+data "Properties" "IsHidden"
+data "Boosts" "IF(HasStatus('FRIGHTENED') and (SpellId('Target_Rip_Tear') ))):CriticalDamageOnHit()"
+
+
 new entry "FinishingStrike"
 type "PassiveData"
 data "DisplayName" "h91cc359bgd395g4009g9d4eg9a25fc7f7b33;1"
