@@ -11743,7 +11743,7 @@
 			</children>
 		</node>
 	</region>
-	<region id="VisualBank">
+<region id="VisualBank">
 		<node id="VisualBank">
 			<children>
 				<node id="Resource">
@@ -11757,7 +11757,7 @@
 					<attribute id="HairType" type="uint8" value="0" />
 					<attribute id="ID" type="FixedString" value="b9c54c41-f982-4969-afd5-323efd3eb523" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="Squalokin_M_Head_D" />
+					<attribute id="Name" type="LSString" value="Squalokin_M_Head_C" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
 					<attribute id="SkeletonResource" type="FixedString" value="025ac1d2-72e7-9186-2ccc-5397948d815a" />
@@ -11787,17 +11787,27 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="13b99793-02ff-865a-cdf0-44424c4a87d0" />
-							<attribute id="ObjectID" type="FixedString" value="Squalokin_M_Head_D.1_SHARK_M_Head_D_Mesh.0" />
+							<attribute id="ObjectID" type="FixedString" value="Squalokin_M_Head_D.1_SHARK_M_NKD_Head_C_Mesh.0" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="b94cb710-4353-5acd-b4cd-4a4c5d3a9ab1" />
-							<attribute id="ObjectID" type="FixedString" value="Squalokin_M_Head_D.2_SHARK_M_Head_D_Mouth_Interior_Mesh.1" />
+							<attribute id="MaterialID" type="FixedString" value="d5163cc5-e34b-f777-1bdd-a4dc9fb16da6" />
+							<attribute id="ObjectID" type="FixedString" value="Squalokin_M_Head_D.2_SHARK_M_NKD_Head_C_Mouth_Interior_Mesh.1" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="13b99793-02ff-865a-cdf0-44424c4a87d0" />
-							<attribute id="ObjectID" type="FixedString" value="Squalokin_M_Head_D.3_SHARK_M_Head_D_Eyes_Mesh.2" />
+							<attribute id="MaterialID" type="FixedString" value="139d7540-7c20-e1ab-0c41-9126c5ff828d" />
+							<attribute id="ObjectID" type="FixedString" value="Squalokin_M_Head_D.3_SHARK_M_NKD_Head_C_Eyes_Mesh.2" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="8089f3a7-638b-1768-b6a4-43e1b0892e23" />
+							<attribute id="ObjectID" type="FixedString" value="Squalokin_M_Head_D.4_SHARK_M_NKD_Head_C_Tearline_Mesh.3" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="b09f1893-d49d-483e-2dc7-0a989741aa9e" />
+							<attribute id="ObjectID" type="FixedString" value="Squalokin_M_Head_D.5_SHARK_M_NKD_Head_C_Eyeshadow_Mesh.4" />
 						</node>
 					</children>
 				</node>
