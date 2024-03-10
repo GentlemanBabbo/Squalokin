@@ -37,7 +37,7 @@
         <node id="Progression">
                   <attribute id="Level" type="uint8" value="7" /> which level the progression is for
                   <attribute id="Name" type="LSString" value="Main_Race_7" /> just an internal name
-                  <attribute id="Boosts" type="LSString" value="" /> 
+                  <attribute id="Boosts" type="LSString" value="FinishingStrike" /> 
                   <attribute id="PassivesAdded" type="LSString" value="" /> passives from stats folder here
                   <attribute id="Selectors" type="LSString" value="" /> this is a single spell being added
                   <attribute id="ProgressionType" type="uint8" value="2" /> 2 means race
