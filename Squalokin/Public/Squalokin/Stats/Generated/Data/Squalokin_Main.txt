@@ -9,6 +9,17 @@ data "Icon" "PassiveFeature_Darkvision"
 data "Properties" "Highlighted"
 data "Boosts" "ActionResource(Movement,9,0);DarkvisionRangeMin(12);ActiveCharacterLight(051648e6-f05a-e41f-e398-ffd5cd148989)"
 
+new entry "Passive_Deep_Predator"
+type "PassiveData"
+data "DisplayName" "h2deacf5fg4260g4f1dga2f8g992bc8f81038;2"
+data "Description" "h8caeb843ge79fg4ed9g9777gc42c83fe7ceb;2"
+data "DescriptionParams" "Distance(3)"
+data "Icon" "PassiveFeature_Generic_Blood"
+data "Properties" "Highlighted"
+data "BoostContext" "OnPushed;OnMovedDistance"
+data "BoostConditions" "InSurface('SurfaceBlood') or InSurface('SurfaceDeepWater') or InSurface('SurfaceDeepWaterRunning') or InSurface('SurfaceWater') or InSurface('SurfaceWaterFrozen') or InSurface('SurfaceBloodFrozen')"
+data "Boosts" "ActionResource(Movement,3,0)
+
 // Bite Animation Tag //
 
 new entry "Squalokin_BiteAnimTag"
@@ -18,7 +29,7 @@ data "DynamicAnimationTag" "aafbe780-d237-416e-9d05-e03070c9dbee"
 
 <!--------------------- Custom Race Spells --------------------->
 
-//Rip and Tear
+//Rip and Tear//
 
 new entry "Target_Rip_Tear"
 type "SpellData"
@@ -42,3 +53,36 @@ data "SpellAnimationIntentType" "Aggressive"
 data "TargetEffect" "dc2d6fa3-5fe4-4aa0-bc5e-20213fd4e065"
 data "Sheathing" "Sheathed"
 data "DamageType" "Piercing"
+
+new entry "Shout_Rage_Squalokin"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_Rage"
+data "Cooldown" "OncePerShortRest"
+data "SpellProperties" "AI_IGNORE:ApplyStatus(RAGE_SQUALOKIN,100,10);AI_ONLY:IF(HasActionResource('ActionPoint', 1, 0, false)):ApplyStatus(AI_HELPER_RAGE,100,1)"
+data "Icon" "Action_Barbarian_Frenzy"
+data "DisplayName" "h2b362a40g878fg48e8gabdbg93c6bf21c001;2"
+data "Description" "h3b15f2acg0785g4590g9016g99850812dfe0;18"
+data "TooltipStatusApply" "ApplyStatus(RAGE_SQUALOKIN,100,10)"
+data "CastSound" "Action_Cast_Rage"
+data "TargetSound" "Action_Impact_Rage"
+data "RequirementConditions" "not HasStatus('RAGE_SQUALOKIN') and not HasStatus('CALM_EMOTIONS')"
+data "PrepareEffect" "63816502-951b-4242-a9a2-fa8b5228f18a"
+data "CastEffect" "d314aed0-4fb5-44dc-98c4-614297017694"
+
+new entry "RAGE_SQUALOKIN"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hf8d85c57g0bfdg4bc9g9f63g3c8e830eb00d;1"
+data "Description" "h33788fc9g1d83g45c5ga1ceg9aca649c681c;1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "FormatColor" "Red"
+data "SoundLoop" "Spell_Status_Rage"
+data "SoundStop" "Spell_Status_Rage_Stop"
+data "StatusSoundState" "7adcc1d1-6d19-4480-bc2e-0913164285ca"
+data "StackId" "RAGE_SAHUAGIN"
+data "Boosts" "IF(not HasMaxHP() and IsMeleeAttack() and not (Tagged('CONSTRUCT') or Tagged('OOZE') or Tagged('PLANT') or Tagged('ELEMENTAL'))):Advantage(AttackRoll)"
+data "RemoveEvents" "OnCombatEnded"
+data "StatusGroups" "SG_Rage"
+data "StatusEffect" "30fd26c7-1a1e-4328-9a9a-38c0f55be597"
+data "DynamicAnimationTag" "b6aa23c3-c96d-42d5-8ffa-8d441d18faa7"
