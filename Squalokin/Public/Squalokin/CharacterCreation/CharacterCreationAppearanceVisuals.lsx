@@ -34,6 +34,20 @@
 					<attribute id="VisualResource" type="guid" value="84d4309d-c35e-4d41-9e99-cefbf41c723d"/>
 					<!--^ This UUID must match the one in the head merged.lsf or the custom name you give it-->
 				</node>
+				<node id="CharacterCreationAppearanceVisual"> SharkM - C
+					<attribute id="BodyShape" type="uint8" value="0"/> <!--0 = Standard 1 = Tall Muscular -->
+					for Dragonborn and Half-Orcs even though they use Tall Muscular bodyshape this value needs to be 0
+					<attribute id="BodyType" type="uint8" value="0"/> <!--0 = Masc 1 = Fem -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="he770a36dg7c34g4a89ga766g994dcc4aa04c" version="1"/> 
+					same as the handle in your Localization\English\custom_name_here.xml
+					<attribute id="IconIdOverride" type="FixedString" value="0_Head_37c9f1e5-8d41-44e9-beae-d5e39a860866"/> <!-- Matches the Map Key for the corresponding icon in ModName_Icons.lsx - I usually just take the hair's VisualResource UUID and stick a 0_Hair_ in front of it -->
+					<attribute id="RaceUUID" type="guid" value="3a63cb45-2c8a-4ebf-a285-3ae2d24b6f84"/>
+					The UUID for the race you're making the head for. See below for a list.
+					<attribute id="SlotName" type="FixedString" value="Head"/>
+					<attribute id="UUID" type="guid" value="40d386f0-f148-483b-9945-a70e4386c8c7"/> <!--Unique UUID -->
+					<attribute id="VisualResource" type="guid" value="2491291b-f169-4c94-ab44-891cccdcabe1"/>
+					<!--^ This UUID must match the one in the head merged.lsf or the custom name you give it-->
+				</node>
 			<!-- RaceUUID so you can quickly replace the above with your desired race
 				Halfling: 78cd3bcc-1c43-4a2a-aa80-c34322c16a04
 				Gnome: f1b3f884-4029-4f0f-b158-1f9fe0ae5a0d
@@ -51,6 +65,7 @@
 		<!--Hair -->
 		
 			<!--Male Hair-->
+
 		<!--Fake Genitals-->
             
                 <node id="CharacterCreationAppearanceVisual"> M
