@@ -1048,8 +1048,6 @@
                         </node>
                     </children>
                 </node>
-            </children>
-        </node>
         <node id="Race">
             <attribute id="Description" type="TranslatedString" handle="hdea75f7fg816cg4accga57agc582d30af2c1" version="1" />   description sub race
             <attribute id="DisplayName" type="TranslatedString" handle="h4c2309e8g7832g4c6cgb79agb5cba31d35b6" version="1" />   name subrace
