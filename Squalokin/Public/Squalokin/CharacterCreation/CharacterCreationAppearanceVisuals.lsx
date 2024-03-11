@@ -80,6 +80,17 @@
 		
 			<!--Male Hair-->
 
+		<!--Tail-->
+		        <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="BodyShape" type="uint8" value="1"/>
+                    <attribute id="BodyType" type="uint8" value="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hc25467cdg9453g49a4g8ab0g8067ecaa4fcc" version="1"/>  <!-- Female Strong -->
+                    <attribute id="RaceUUID" type="guid" value="3a63cb45-2c8a-4ebf-a285-3ae2d24b6f84"/>
+                    <attribute id="SlotName" type="FixedString" value="Tail"/>
+                    <attribute id="UUID" type="guid" value="780bad8f-e2d1-44b3-9869-f69c354729e9"/>
+                    <attribute id="VisualResource" type="guid" value="0f5e6529-d005-44b0-b883-8e77ffc4bcb0"/>
+                </node>
+
 		<!--Fake Genitals-->
             
                 <node id="CharacterCreationAppearanceVisual"> M
