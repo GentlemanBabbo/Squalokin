@@ -175,6 +175,11 @@
 						</node>
 						<node id="Slots">
 							<attribute id="Bone" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="Tail" />
+							<attribute id="VisualResource" type="FixedString" value="0f5e6529-d005-44b0-b883-8e77ffc4bcb0" />
+						</node>
+						<node id="Slots">
+							<attribute id="Bone" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="Hair" />
 							<attribute id="VisualResource" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
 						</node>
