@@ -147,6 +147,7 @@
 											<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
 											<attribute id="MapKey" type="FixedString" value="02Skin Properties" />
 											<attribute id="MaterialPresetResource" type="FixedString" value="27d3818e-cc16-43f5-9637-d7da6f1e90e7" />
+										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
 											<attribute id="GroupName" type="FixedString" value="06Eyes" />
