@@ -4,15 +4,16 @@
     <region id="CharacterCreationAppearanceVisuals">
         <node id="root">
             <children>
-		<!--Heads-->
+		<!--Heads--> 
 		<!-- M_FR_TIF_A --> I use these breaks <!-- --> to split my heads up so I know which is which
+				
+<!--Male Heads-->
 				<node id="CharacterCreationAppearanceVisual"> SharkM - A
 					<attribute id="BodyShape" type="uint8" value="0"/> <!--0 = Standard 1 = Tall Muscular -->
 					for Dragonborn and Half-Orcs even though they use Tall Muscular bodyshape this value needs to be 0
 					<attribute id="BodyType" type="uint8" value="0"/> <!--0 = Masc 1 = Fem -->
                     <attribute id="DisplayName" type="TranslatedString" handle="h0d6249bbg136fg462fg9444g19e0d463f824" version="1"/> 
 					same as the handle in your Localization\English\custom_name_here.xml
-					<attribute id="IconIdOverride" type="FixedString" value="0_Head_37c9f1e5-8d41-44e9-beae-d5e39a860866"/> <!-- Matches the Map Key for the corresponding icon in ModName_Icons.lsx - I usually just take the hair's VisualResource UUID and stick a 0_Hair_ in front of it -->
 					<attribute id="RaceUUID" type="guid" value="3a63cb45-2c8a-4ebf-a285-3ae2d24b6f84"/>
 					The UUID for the race you're making the head for. See below for a list.
 					<attribute id="SlotName" type="FixedString" value="Head"/>
@@ -26,7 +27,6 @@
 					<attribute id="BodyType" type="uint8" value="0"/> <!--0 = Masc 1 = Fem -->
                     <attribute id="DisplayName" type="TranslatedString" handle="ha3d66309ge448g487eg9bacgaef9e28de12e" version="1"/> 
 					same as the handle in your Localization\English\custom_name_here.xml
-					<attribute id="IconIdOverride" type="FixedString" value="0_Head_37c9f1e5-8d41-44e9-beae-d5e39a860866"/> <!-- Matches the Map Key for the corresponding icon in ModName_Icons.lsx - I usually just take the hair's VisualResource UUID and stick a 0_Hair_ in front of it -->
 					<attribute id="RaceUUID" type="guid" value="3a63cb45-2c8a-4ebf-a285-3ae2d24b6f84"/>
 					The UUID for the race you're making the head for. See below for a list.
 					<attribute id="SlotName" type="FixedString" value="Head"/>
@@ -40,7 +40,6 @@
 					<attribute id="BodyType" type="uint8" value="0"/> <!--0 = Masc 1 = Fem -->
                     <attribute id="DisplayName" type="TranslatedString" handle="he770a36dg7c34g4a89ga766g994dcc4aa04c" version="1"/> 
 					same as the handle in your Localization\English\custom_name_here.xml
-					<attribute id="IconIdOverride" type="FixedString" value="0_Head_37c9f1e5-8d41-44e9-beae-d5e39a860866"/> <!-- Matches the Map Key for the corresponding icon in ModName_Icons.lsx - I usually just take the hair's VisualResource UUID and stick a 0_Hair_ in front of it -->
 					<attribute id="RaceUUID" type="guid" value="3a63cb45-2c8a-4ebf-a285-3ae2d24b6f84"/>
 					The UUID for the race you're making the head for. See below for a list.
 					<attribute id="SlotName" type="FixedString" value="Head"/>
@@ -54,7 +53,6 @@
 					<attribute id="BodyType" type="uint8" value="0"/> <!--0 = Masc 1 = Fem -->
                     <attribute id="DisplayName" type="TranslatedString" handle="h8902a5f5g5b6dg467eg9341g801817fe3f5a" version="1"/> 
 					same as the handle in your Localization\English\custom_name_here.xml
-					<attribute id="IconIdOverride" type="FixedString" value="0_Head_37c9f1e5-8d41-44e9-beae-d5e39a860866"/> <!-- Matches the Map Key for the corresponding icon in ModName_Icons.lsx - I usually just take the hair's VisualResource UUID and stick a 0_Hair_ in front of it -->
 					<attribute id="RaceUUID" type="guid" value="3a63cb45-2c8a-4ebf-a285-3ae2d24b6f84"/>
 					The UUID for the race you're making the head for. See below for a list.
 					<attribute id="SlotName" type="FixedString" value="Head"/>
@@ -75,6 +73,21 @@
 				Dwarf: 0ab2874d-cfdc-405e-8a97-d37bfbb23c52
 				Dragonborn: 9c61a74a-20df-4119-89c5-d996956b6c66 
 				Half-Orc: 5c39a726-71c8-4748-ba8d-f768b3c11a91-->
+
+<!--Female Heads-->
+
+				<node id="CharacterCreationAppearanceVisual"> SharkF - A
+					<attribute id="BodyShape" type="uint8" value="0"/> <!--0 = Standard 1 = Tall Muscular -->
+					for Dragonborn and Half-Orcs even though they use Tall Muscular bodyshape this value needs to be 0
+					<attribute id="BodyType" type="uint8" value="0"/> <!--1 = Masc 1 = Fem -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="he770a36dg7c34g4a89ga766g994dcc4aa04c" version="1"/> 
+					same as the handle in your Localization\English\custom_name_here.xml
+					<attribute id="RaceUUID" type="guid" value="3a63cb45-2c8a-4ebf-a285-3ae2d24b6f84"/>
+					The UUID for the race you're making the head for. See below for a list.
+					<attribute id="SlotName" type="FixedString" value="Head"/>
+					<attribute id="UUID" type="guid" value="37142712-1039-4ad6-bdba-d2aeed69d327"/> <!--Unique UUID -->
+					<attribute id="VisualResource" type="guid" value="7a6720e3-9c41-4c42-8896-03b2295745bc"/>
+					<!--^ This UUID must match the one in the head merged.lsf or the custom name you give it-->
 
 		<!--Hair -->
 		
