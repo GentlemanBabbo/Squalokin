@@ -11809,6 +11809,11 @@
 							<attribute id="MaterialID" type="FixedString" value="b09f1893-d49d-483e-2dc7-0a989741aa9e" />
 							<attribute id="ObjectID" type="FixedString" value="Squalokin_M_Head_A.5_SHARK_M_NKD_Head_A_Eyeshadow_Mesh.4" />
 						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="13b99793-02ff-865a-cdf0-44424c4a87d0" />
+							<attribute id="ObjectID" type="FixedString" value="Squalokin_M_Head_A.6_SHARK_M_NKD_Tentacles.5" />
+						</node>
 					</children>
 				</node>
 			</children>
