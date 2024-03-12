@@ -4,12 +4,12 @@
 	<region id="MaterialBank">
 		<node id="MaterialBank">
 			<children>
-			<!--Goliath Female Body-->
+			<!--Shark Female Body-->
 				<node id="Resource"> 
 					<attribute id="DiffusionProfileUUID" type="FixedString" value="" /> 
-					<attribute id="ID" type="FixedString" value="71729fed-2fd9-4351-866e-ce6b353eba33" /> Generate new UUID
+					<attribute id="ID" type="FixedString" value="3085817b-046f-46c7-8bb8-f22e6455460f" /> Generate new UUID
 					<attribute id="MaterialType" type="uint8" value="22" />
-					<attribute id="Name" type="LSString" value="ROCK_MAT" />
+					<attribute id="Name" type="LSString" value="SHARK_MAT" />
 					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_BASE.lsf" />
 					<children>
 						<node id="ScalarParameters">
@@ -136,7 +136,7 @@
 	<region id="VisualBank">
 		<node id="VisualBank">
 			<children>
-			<!--Goliath Female Body-->
+			<!--Shark Female Body-->
 				<node id="Resource">
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
@@ -148,30 +148,35 @@
 					<attribute id="HairType" type="uint8" value="0" />
 					<attribute id="ID" type="FixedString" value="9e218117-dd2d-4f86-8cef-699392d59530" />
 					<attribute id="MaterialType" type="uint8" value="18" />
-					<attribute id="Name" type="LSString" value="GOLIATH_FS_NKD" />
+					<attribute id="Name" type="LSString" value="SQUALOKIN_F_NKD" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="RemapperSlotId" type="FixedString" value="" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
-					<attribute id="SkeletonResource" type="FixedString" value="e7b96b01-af9c-835b-e6b5-f1a75f7b538b" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="NakedBody" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="84afe2c6-7201-0f74-edea-7ff93f7c6597" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Stoneborn/[PAK]_STONE_Body/STONE_F_Body/Stoneborn_FS_NKD.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Squalokin/[PAK]_SQUALOKIN_Body/SQUALOKIN_F_Body/Squalokin_F_NKD_Body.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/Stoneborn/[PAK]_STONE_Body/STONE_F_Body/Stoneborn_FS_NKD.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Squalokin/[PAK]_SQUALOKIN_Body/SQUALOKIN_F_Body/Squalokin_F_NKD_Body.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
 					<children>
 						<node id="Base" />
 						<node id="ClothProxyMapping" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" /> Body
-							<attribute id="MaterialID" type="FixedString" value="71729fed-2fd9-4351-866e-ce6b353eba33" />
-							<attribute id="ObjectID" type="FixedString" value="Stoneborn_FS_NKD.1_STONE_FS_NKD_Mesh.0" />
+							<attribute id="MaterialID" type="FixedString" value="3046c971-6caf-abe6-5e9a-0149cf60d085" />
+							<attribute id="ObjectID" type="FixedString" value="Squalokin_F_NKD_Body.DGB_F_NKD_Body_A_Mesh.0" />
 						</node>
 						<node id="Objects">
-							<attribute id="LOD" type="uint8" value="0" /> Heart
-							<attribute id="MaterialID" type="FixedString" value="c47fba68-dbd5-a405-6535-2155ff08ba6f" />
-							<attribute id="ObjectID" type="FixedString" value="Stoneborn_FS_NKD.2_STONE_FS_NKD_Heart.1" />
+							<attribute id="LOD" type="uint8" value="0" /> BackFin
+							<attribute id="MaterialID" type="FixedString" value="3046c971-6caf-abe6-5e9a-0149cf60d085" />
+							<attribute id="ObjectID" type="FixedString" value="Squalokin_F_NKD_Body.2_SHARK_BackFin.1" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" /> Other Fins
+							<attribute id="MaterialID" type="FixedString" value="3046c971-6caf-abe6-5e9a-0149cf60d085" />
+							<attribute id="ObjectID" type="FixedString" value="Squalokin_F_NKD_Body.3_SHARK_ChestFins.1" />
 						</node>
 					</children>
 				</node>
