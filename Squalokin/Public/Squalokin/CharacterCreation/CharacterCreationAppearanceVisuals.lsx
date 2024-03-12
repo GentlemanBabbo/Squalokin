@@ -88,7 +88,7 @@
 					<attribute id="UUID" type="guid" value="37142712-1039-4ad6-bdba-d2aeed69d327"/> <!--Unique UUID -->
 					<attribute id="VisualResource" type="guid" value="7a6720e3-9c41-4c42-8896-03b2295745bc"/>
 					<!--^ This UUID must match the one in the head merged.lsf or the custom name you give it-->
-
+				</node>
 		<!--Hair -->
 		
 			<!--Male Hair-->
