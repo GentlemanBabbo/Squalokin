@@ -11755,12 +11755,12 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="2491291b-f169-4c94-ab44-891cccdcabe1" />
+					<attribute id="ID" type="FixedString" value="2aba038d-26be-482a-964f-21545912a3d0" />
 					<attribute id="MaterialType" type="uint8" value="0" />
 					<attribute id="Name" type="LSString" value="Squalokin_M_Head_A" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
-					<attribute id="SkeletonResource" type="FixedString" value="2aba038d-26be-482a-964f-21545912a3d0" />
+					<attribute id="SkeletonResource" type="FixedString" value="025ac1d2-72e7-9186-2ccc-5397948d815a" />
 					<attribute id="SkeletonSlot" type="FixedString" value="1" />
 					<attribute id="Slot" type="FixedString" value="Head" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
