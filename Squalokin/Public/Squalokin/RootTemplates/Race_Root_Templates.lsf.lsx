@@ -54,7 +54,7 @@
 					<attribute id="Icon" type="FixedString" value="d67bd924-3c1f-c33a-5298-feca5bbdc284-_(Icon_Elf_Female)" />
 					<attribute id="Stats" type="FixedString" value="HeroElfFemale" /> dont change
 					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" /> dont change
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="77be99d9-82f4-4671-956d-af0c71739472" /> which models to load
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="6ab8642c-0705-4387-b0df-c6866368026d" /> which models to load
 					<attribute id="PortraitVisualResourceID" type="FixedString" value="e1254a4e-3d52-76c2-7b19-52e93941b6dd" />
 					<attribute id="Race" type="guid" value="4b571ca6-3b3d-4664-9d4c-672e6dd11274" /> define race as Custom Race
 					<children>
