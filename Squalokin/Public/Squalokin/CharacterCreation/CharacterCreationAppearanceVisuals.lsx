@@ -79,7 +79,7 @@
 				<node id="CharacterCreationAppearanceVisual"> SharkF - A
 					<attribute id="BodyShape" type="uint8" value="0"/> <!--0 = Standard 1 = Tall Muscular -->
 					for Dragonborn and Half-Orcs even though they use Tall Muscular bodyshape this value needs to be 0
-					<attribute id="BodyType" type="uint8" value="0"/> <!--1 = Masc 1 = Fem -->
+					<attribute id="BodyType" type="uint8" value="1"/> <!--1 = Masc 1 = Fem -->
                     <attribute id="DisplayName" type="TranslatedString" handle="he770a36dg7c34g4a89ga766g994dcc4aa04c" version="1"/> 
 					same as the handle in your Localization\English\custom_name_here.xml
 					<attribute id="RaceUUID" type="guid" value="3a63cb45-2c8a-4ebf-a285-3ae2d24b6f84"/>
