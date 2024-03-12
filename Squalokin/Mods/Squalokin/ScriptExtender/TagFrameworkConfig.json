@@ -1,0 +1,13 @@
+{
+  "FileVersion": 1,
+  "Tags": [
+    {
+      "modGuids": ["88b9e5e1-67ab-487e-b2e9-2811016b937a"],
+      "Type": "Race",
+      "Tag": "SQUALOKIN_a6d034e9-3696-493b-aa75-c7ddc1cdf483",
+      "ReallyTag": "SQUALOKIN_a6d034e9-3696-493b-aa75-c7ddc1cdf483",
+      "TagsToExclude": ["Baldurian"],
+      "RaceMetaTags": ["Rare"]
+    }
+  ]
+}
