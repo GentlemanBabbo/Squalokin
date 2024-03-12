@@ -18,7 +18,7 @@
 				</node>
 			</children>
 		</node>
-	</region>		
+	</region>	
 	<region id="SkeletonBank">
 		<node id="SkeletonBank">
 			<children>
@@ -4358,7 +4358,7 @@
 			<children>
 				<node id="Resource">
 					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
-					<attribute id="ID" type="FixedString" value="ea5d829d-2eb9-4b61-9beb-fa5f92eaf408" />
+					<attribute id="ID" type="FixedString" value="77f03bf2-9ff4-4ea9-90e1-decf198273f0" />
 					<attribute id="MaterialType" type="uint8" value="18" />
 					<attribute id="Name" type="LSString" value="Squalokin_M_Head_A" />
 					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_Skin_Head_v3.lsf" />
@@ -5164,7 +5164,7 @@
 		<node id="AnimationSetBank">
 			<children>
 				<node id="Resource">
-					<attribute id="ID" type="FixedString" value="2e1641f6-5cf1-4af4-a720-1ea9b1bc8caa" />
+					<attribute id="ID" type="FixedString" value="beaf9250-fb9e-47a3-9922-c632187ac776" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Name" type="LSString" value="Squalokin_M_Head_A" />
 		<attribute id="PreviewVisualResourceID" type="guid" value="00000000-0000-0000-0000-000000000000" />
@@ -11755,12 +11755,12 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="2aba038d-26be-482a-964f-21545912a3d0" />
+					<attribute id="ID" type="FixedString" value="2491291b-f169-4c94-ab44-891cccdcabe1" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="Squalokin_MS_Head_A" />
+					<attribute id="Name" type="LSString" value="Squalokin_M_Head_A" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
-					<attribute id="SkeletonResource" type="FixedString" value="025ac1d2-72e7-9186-2ccc-5397948d815a" />
+					<attribute id="SkeletonResource" type="FixedString" value="2aba038d-26be-482a-964f-21545912a3d0" />
 					<attribute id="SkeletonSlot" type="FixedString" value="1" />
 					<attribute id="Slot" type="FixedString" value="Head" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
@@ -11786,7 +11786,7 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="13b99793-02ff-865a-cdf0-44424c4a87d0"" />
+							<attribute id="MaterialID" type="FixedString" value="13b99793-02ff-865a-cdf0-44424c4a87d0" />
 							<attribute id="ObjectID" type="FixedString" value="Squalokin_M_Head_A.1_SHARK_M_NKD_Head_A_Mesh.0" />
 						</node>
 						<node id="Objects">
