@@ -16,6 +16,7 @@
 					same as the handle in your Localization\English\custom_name_here.xml
 					<attribute id="RaceUUID" type="guid" value="3a63cb45-2c8a-4ebf-a285-3ae2d24b6f84"/>
 					The UUID for the race you're making the head for. See below for a list.
+					<attribute id="SubRaceUUID" type="guid" value="7fa2b41f-7323-4304-a27a-6a0bb37b6cc1"/>  your subrace uuid
 					<attribute id="SlotName" type="FixedString" value="Head"/>
 					<attribute id="UUID" type="guid" value="c1155444-dacf-466e-9a23-653857d278db"/> <!--Unique UUID -->
 					<attribute id="VisualResource" type="guid" value="2aba038d-26be-482a-964f-21545912a3d0"/>
@@ -29,6 +30,7 @@
 					same as the handle in your Localization\English\custom_name_here.xml
 					<attribute id="RaceUUID" type="guid" value="3a63cb45-2c8a-4ebf-a285-3ae2d24b6f84"/>
 					The UUID for the race you're making the head for. See below for a list.
+					<attribute id="SubRaceUUID" type="guid" value="7fa2b41f-7323-4304-a27a-6a0bb37b6cc1"/>  your subrace uuid
 					<attribute id="SlotName" type="FixedString" value="Head"/>
 					<attribute id="UUID" type="guid" value="d2997fec-0f4d-4942-bc8c-b3cfbb75c5b5"/> <!--Unique UUID -->
 					<attribute id="VisualResource" type="guid" value="84d4309d-c35e-4d41-9e99-cefbf41c723d"/>
@@ -41,6 +43,7 @@
                     <attribute id="DisplayName" type="TranslatedString" handle="he770a36dg7c34g4a89ga766g994dcc4aa04c" version="1"/> 
 					same as the handle in your Localization\English\custom_name_here.xml
 					<attribute id="RaceUUID" type="guid" value="3a63cb45-2c8a-4ebf-a285-3ae2d24b6f84"/>
+					<attribute id="SubRaceUUID" type="guid" value="7fa2b41f-7323-4304-a27a-6a0bb37b6cc1"/>  your subrace uuid			
 					The UUID for the race you're making the head for. See below for a list.
 					<attribute id="SlotName" type="FixedString" value="Head"/>
 					<attribute id="UUID" type="guid" value="40d386f0-f148-483b-9945-a70e4386c8c7"/> <!--Unique UUID -->
@@ -54,6 +57,7 @@
                     <attribute id="DisplayName" type="TranslatedString" handle="h8902a5f5g5b6dg467eg9341g801817fe3f5a" version="1"/> 
 					same as the handle in your Localization\English\custom_name_here.xml
 					<attribute id="RaceUUID" type="guid" value="3a63cb45-2c8a-4ebf-a285-3ae2d24b6f84"/>
+					<attribute id="SubRaceUUID" type="guid" value="7fa2b41f-7323-4304-a27a-6a0bb37b6cc1"/>  your subrace uuid					
 					The UUID for the race you're making the head for. See below for a list.
 					<attribute id="SlotName" type="FixedString" value="Head"/>
 					<attribute id="UUID" type="guid" value="818b8341-6457-40e1-9365-632ba6f82e85"/> <!--Unique UUID -->
@@ -83,6 +87,7 @@
                     <attribute id="DisplayName" type="TranslatedString" handle="he770a36dg7c34g4a89ga766g994dcc4aa04c" version="1"/> 
 					same as the handle in your Localization\English\custom_name_here.xml
 					<attribute id="RaceUUID" type="guid" value="3a63cb45-2c8a-4ebf-a285-3ae2d24b6f84"/>
+					<attribute id="SubRaceUUID" type="guid" value="7fa2b41f-7323-4304-a27a-6a0bb37b6cc1"/>  your subrace uuid
 					The UUID for the race you're making the head for. See below for a list.
 					<attribute id="SlotName" type="FixedString" value="Head"/>
 					<attribute id="UUID" type="guid" value="37142712-1039-4ad6-bdba-d2aeed69d327"/> <!--Unique UUID -->
@@ -99,7 +104,8 @@
                     <attribute id="BodyType" type="uint8" value="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="hc25467cdg9453g49a4g8ab0g8067ecaa4fcc" version="1"/>  <!-- Female Strong -->
                     <attribute id="RaceUUID" type="guid" value="3a63cb45-2c8a-4ebf-a285-3ae2d24b6f84"/>
-                    <attribute id="SlotName" type="FixedString" value="Tail"/>
+		    <attribute id="SubRaceUUID" type="guid" value="7fa2b41f-7323-4304-a27a-6a0bb37b6cc1"/>  your subrace uuid                 
+		    <attribute id="SlotName" type="FixedString" value="Tail"/>
                     <attribute id="UUID" type="guid" value="780bad8f-e2d1-44b3-9869-f69c354729e9"/>
                     <attribute id="VisualResource" type="guid" value="0f5e6529-d005-44b0-b883-8e77ffc4bcb0"/>
                 </node>
