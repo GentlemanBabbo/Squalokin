@@ -78,6 +78,23 @@
 				Dragonborn: 9c61a74a-20df-4119-89c5-d996956b6c66 
 				Half-Orc: 5c39a726-71c8-4748-ba8d-f768b3c11a91-->
 
+<!--Impetus Heads-->
+
+				<node id="CharacterCreationAppearanceVisual"> SharkM - D
+					<attribute id="BodyShape" type="uint8" value="0"/> <!--0 = Standard 1 = Tall Muscular -->
+					for Dragonborn and Half-Orcs even though they use Tall Muscular bodyshape this value needs to be 0
+					<attribute id="BodyType" type="uint8" value="0"/> <!--0 = Masc 1 = Fem -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="hd8f35a58ge275g4d8ag810agba7d397f0915" version="1"/> 
+					same as the handle in your Localization\English\custom_name_here.xml
+					<attribute id="RaceUUID" type="guid" value="3a63cb45-2c8a-4ebf-a285-3ae2d24b6f84"/>
+					<attribute id="SubRaceUUID" type="guid" value="5f37cf54-fa5b-4559-9e0c-0d3d61c05fd3"/>  your subrace uuid					
+					The UUID for the race you're making the head for. See below for a list.
+					<attribute id="SlotName" type="FixedString" value="Head"/>
+					<attribute id="UUID" type="guid" value="b0a89220-1dbf-43b7-a140-e6fdd285c4bd"/> <!--Unique UUID -->
+					<attribute id="VisualResource" type="guid" value="494b6204-2587-40e2-b92c-0bd578100d0e"/>
+					<!--^ This UUID must match the one in the head merged.lsf or the custom name you give it-->
+				</node>
+
 <!--Female Heads-->
 
 				<node id="CharacterCreationAppearanceVisual"> SharkF - A
