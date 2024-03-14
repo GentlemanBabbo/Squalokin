@@ -59,7 +59,7 @@
 					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
 					<attribute id="ID" type="FixedString" value="3ff9b943-6ef2-49e6-a626-c09dbb1cb527" />
 					<attribute id="MaterialType" type="uint8" value="18" />
-					<attribute id="Name" type="LSString" value="SQUALOKIN_M_NKD_Tail" />
+					<attribute id="Name" type="LSString" value="IMPETUS_M_NKD_Tail" />
 					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_Skin_Body.lsf" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
 					<children>
@@ -556,11 +556,11 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="0f5e6529-d005-44b0-b883-8e77ffc4bcb0" />
+					<attribute id="ID" type="FixedString" value="15a7a013-f8c6-4f8c-bb22-0db5d559f08c" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="SQUALOKIN_M_NKD_Tail" />
+					<attribute id="Name" type="LSString" value="IMPETUS_M_NKD_Tail" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="Radius" type="float" value="0.7664916" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -568,9 +568,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="Tail" />
 					<attribute id="Slot" type="FixedString" value="NakedBody" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Squalokin/[PAK]_SQUALOKIN_Tails/Squalokin_M_NKD_Tail.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Squalokin/[PAK]_SQUALOKIN_Tails/Impetus_M_NKD_Tail.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/Squalokin/[PAK]_SQUALOKIN_Tails/Squalokin_M_NKD_Tail.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Squalokin/[PAK]_SQUALOKIN_Tails/Impetus_M_NKD_Tail.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241509" />
 					<children>
 						<node id="AnimationWaterfall">
@@ -584,14 +584,14 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="3046c971-6caf-abe6-5e9a-0149cf60d085" />
-							<attribute id="ObjectID" type="FixedString" value="Squalokin_M_NKD_Tail.Sharktail.0" />
+							<attribute id="ObjectID" type="FixedString" value="Impetus_M_NKD_Tail.Sharktail.0" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="3046c971-6caf-abe6-5e9a-0149cf60d085" />
-							<attribute id="ObjectID" type="FixedString" value="Squalokin_M_NKD_Tail.Sharktail.1" />
+							<attribute id="ObjectID" type="FixedString" value="Impetus_M_NKD_Tail.Sharktail.1" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
 						</node>
