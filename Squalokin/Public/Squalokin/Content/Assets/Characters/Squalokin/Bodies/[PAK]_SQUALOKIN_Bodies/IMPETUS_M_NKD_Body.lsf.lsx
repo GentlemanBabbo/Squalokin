@@ -838,17 +838,17 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" /> Hook
 							<attribute id="MaterialID" type="FixedString" value="3046c971-6caf-abe6-5e9a-0149cf60d085" />
-							<attribute id="ObjectID" type="FixedString" value="Impetus_M_NKD_Body.SHARK_M_NKD_ArmHook.0" />
+							<attribute id="ObjectID" type="FixedString" value="Impetus_M_NKD_Body.SHARK_M_NKD_ArmHook.1" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" /> Bolts
 							<attribute id="MaterialID" type="FixedString" value="eb3caa8a-891f-8d4c-7d45-aa3c3865ff94" />
-							<attribute id="ObjectID" type="FixedString" value="Impetus_M_NKD_Body.SHARK_M_NKD_Bolts.0" />
+							<attribute id="ObjectID" type="FixedString" value="Impetus_M_NKD_Body.SHARK_M_NKD_Bolts.2" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" /> Hand
 							<attribute id="MaterialID" type="FixedString" value="eb3caa8a-891f-8d4c-7d45-aa3c3865ff94" />
-							<attribute id="ObjectID" type="FixedString" value="Impetus_M_NKD_Body.SHARK_M_NKD_HookHand.0" />
+							<attribute id="ObjectID" type="FixedString" value="Impetus_M_NKD_Body.SHARK_M_NKD_HookHand.3" />
 						</node>
 					</children>
 				</node>
