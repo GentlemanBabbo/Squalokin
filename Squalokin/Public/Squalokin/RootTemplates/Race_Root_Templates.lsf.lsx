@@ -161,7 +161,7 @@
 					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" /> dont change
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="7aa947a5-9344-48fa-a082-af98968626b6" /> which models to load
 					<attribute id="PortraitVisualResourceID" type="FixedString" value="f7af9f10-cd33-3b88-e96a-d52952e81f5b" />
-					<attribute id="Race" type="guid" value="4b571ca6-3b3d-4664-9d4c-672e6dd11274" /> define race as Custom Race
+					<attribute id="Race" type="guid" value="5f37cf54-fa5b-4559-9e0c-0d3d61c05fd3" /> define race as Custom Race
 					<children>
 						<node id="SpeakerGroupList">
 							<children>
