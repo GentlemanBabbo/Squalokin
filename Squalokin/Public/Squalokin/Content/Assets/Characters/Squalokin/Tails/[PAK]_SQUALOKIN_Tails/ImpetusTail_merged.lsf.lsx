@@ -583,14 +583,14 @@
 						<node id="ClothProxyMapping" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="3046c971-6caf-abe6-5e9a-0149cf60d085" />
+							<attribute id="MaterialID" type="FixedString" value="2b078d78-2036-492b-9edf-50e1edf8879e" />
 							<attribute id="ObjectID" type="FixedString" value="Impetus_M_NKD_Tail.Sharktail.0" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="3046c971-6caf-abe6-5e9a-0149cf60d085" />
+							<attribute id="MaterialID" type="FixedString" value="2b078d78-2036-492b-9edf-50e1edf8879e" />
 							<attribute id="ObjectID" type="FixedString" value="Impetus_M_NKD_Tail.Sharktail.1" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
