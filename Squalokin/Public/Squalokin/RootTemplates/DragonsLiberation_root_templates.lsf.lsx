@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>	
+
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="hb2288bb-cde3-482e-a508-3d44449a4f7c" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h8e3c524-f845-4bde-939c-454d0ab52d7f" version="1" />
+					<attribute id="Icon" type="FixedString" value="DragonsLiberation_dragonsliberationicon_ICON" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="dd32e886-0530-4b37-b422-0baeb8ca6728" />
+					<attribute id="Name" type="LSString" value="DRAGONS_LIBERATION" />
+					<attribute id="VisualTemplate" type="FixedString" value="2265b813-d4a1-448b-9230-1a16929f8034" />
+					<attribute id="ParentTemplateId" type="FixedString" value="04622e3d-5b3f-4f2c-a0db-513a717d911f" />
+					<attribute id="Stats" type="FixedString" value="DRAGONS_LIBERATION" />
+					<attribute id="Type" type="FixedString" value="item" />
+					
+				</node> 
+
+			</children>
+		</node>
+	</region>
+</save>

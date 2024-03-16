@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" />  This file is not converted to lsf!
+	<region id="TextureAtlasInfo"> 
+		<node id="root">
+			<children>
+				<node id="TextureAtlasIconSize">
+					<attribute id="Height" type="int64" value="64"/>
+					<attribute id="Width" type="int64" value="64"/>
+				</node>
+				<node id="TextureAtlasPath">
+					<attribute id="Path" type="LSString" value="Assets/Textures/Icons/DragonsLiberation_icons.dds"/>
+					<attribute id="UUID" type="FixedString" value="c17ab2a0-89dc-419c-a743-89bd7702f4ae"/>
+				</node>
+				<node id="TextureAtlasTextureSize">
+					<attribute id="Height" type="int64" value="256"/>
+					<attribute id="Width" type="int64" value="256"/>
+				</node>
+			</children>
+		</node>
+	</region>
+	<region id="IconUVList">
+		<node id="root">
+			<children>
+				
+
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="DragonsLiberation_dragonsliberationicon_ICON"/> 1
+					<attribute id="U1" type="float" value="0.0"/> Left side of icon
+					<attribute id="U2" type="float" value="1.0"/> Right side of icon
+					<attribute id="V1" type="float" value="0.0"/> Top side of icon
+					<attribute id="V2" type="float" value="1.0"/> Bottom side of icon
+				</node>
+				
+
+			</children>
+		</node>
+	</region>
+</save>
