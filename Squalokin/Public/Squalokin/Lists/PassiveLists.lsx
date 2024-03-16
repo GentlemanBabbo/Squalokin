@@ -13,6 +13,14 @@
                     <attribute id="UUID" type="guid" value="1f84cf2c-1835-42ac-98bd-f7d49da15371"/> the UUID, needs to be unique
                 </node>
                 <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="Passive_AnkleBite"/> the passive list
+                    <attribute id="UUID" type="guid" value="75c402dc-3617-4530-971d-496d5e8a2764"/> the UUID, needs to be unique
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="Passive_TwistingChomp"/> the passive list
+                    <attribute id="UUID" type="guid" value="638843fe-380f-48e0-84a8-77d81fcac92f"/> the UUID, needs to be unique
+                </node>
+                <node id="PassiveList">
                     <attribute id="Passives" type="LSString" value="Passive_Deep_Predator"/> the passive list
                     <attribute id="UUID" type="guid" value="19b5692a-6cf9-4b76-8752-6108b6c27647"/> the UUID, needs to be unique
                 </node>
