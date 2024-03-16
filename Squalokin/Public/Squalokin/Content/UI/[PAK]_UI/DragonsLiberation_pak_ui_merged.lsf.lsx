@@ -9,7 +9,7 @@
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Name" type="LSString" value="DragonsLiberation_Icons" />
 					<attribute id="SRGB" type="bool" value="True" />
-					<attribute id="SourceFile" type="LSString" value="Public/DragonsLiberation/Assets/Textures/Icons/DragonsLiberation_icons.dds" />
+					<attribute id="SourceFile" type="LSString" value="Public/Squalokin/Assets/Textures/Icons/DragonsLiberation_icons.dds" />
 					<attribute id="Streaming" type="bool" value="True" />
 					<attribute id="Template" type="FixedString" value="DragonsLiberation_icons_items" />
 					<attribute id="Type" type="int64" value="0" />
