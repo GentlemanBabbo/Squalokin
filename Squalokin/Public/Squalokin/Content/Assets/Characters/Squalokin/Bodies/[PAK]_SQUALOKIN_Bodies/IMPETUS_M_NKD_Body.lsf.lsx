@@ -10,7 +10,7 @@
 					<attribute id="ID" type="FixedString" value="2b078d78-2036-492b-9edf-50e1edf8879e" />
 					<attribute id="MaterialType" type="uint8" value="18" />
 					<attribute id="Name" type="LSString" value="Colorable_Impetus_Skin_Body" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_BASE_VertCut.lsf" />
+                    <attribute id="SourceFile" type="LSString" value="Public/SharedDev/Assets/Materials/Characters/CHAR_Skin_Body_DGB.lsf" />
 					<children>
 						<node id="ScalarParameters">
 							<attribute id="BaseValue" type="float" value="0.7" />
@@ -128,7 +128,7 @@
 					<attribute id="ID" type="FixedString" value="f00feba6-4596-49eb-a07b-cb31acfdd824" />
 					<attribute id="Name" type="LSString" value="Impetus_M_NKD_Body_BM" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Squalokin/[PAK]_SQUALOKIN_Body/SQUALOKIN_M_Body/Impetus_M_NKD_Body_BM.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Squalokin/[PAK]_SQUALOKIN_Body/SQUALOKIN_M_Body/SeaMonster_BM.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
 					<attribute id="Template" type="FixedString" value="Impetus_M_NKD_Body_BM" />
 					<attribute id="Type" type="int32" value="1" />
@@ -141,7 +141,7 @@
 					<attribute id="ID" type="FixedString" value="269c5caf-7b85-4dc3-8c0c-a2f70980100b" />
 					<attribute id="Name" type="LSString" value="Impetus_M_NKD_Body_NM" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Squalokin/[PAK]_SQUALOKIN_Body/SQUALOKIN_M_Body/Impetus_M_NKD_Body_NM.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Squalokin/[PAK]_SQUALOKIN_Body/SQUALOKIN_M_Body/SeaMonster_NM.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
 					<attribute id="Template" type="FixedString" value="Impetus_M_NKD_Body_NM" />
 					<attribute id="Type" type="int32" value="1" />
@@ -154,7 +154,7 @@
 					<attribute id="ID" type="FixedString" value="e100e687-b3a7-443d-a0e7-4bb4850dedef" />
 					<attribute id="Name" type="LSString" value="Impetus_M_NKD_Body_PM" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Squalokin/[PAK]_SQUALOKIN_Body/SQUALOKIN_M_Body/Impetus_M_NKD_Body_PM.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Squalokin/[PAK]_SQUALOKIN_Body/SQUALOKIN_M_Body/SeaMonster_PM.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
 					<attribute id="Template" type="FixedString" value="Impetus_M_NKD_Body_PM" />
 					<attribute id="Type" type="int32" value="1" />
