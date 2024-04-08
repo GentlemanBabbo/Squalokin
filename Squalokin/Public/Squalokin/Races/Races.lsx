@@ -1060,18 +1060,6 @@
                 <children>                 
                 </children>
         </node>
-        <node id="Race">
-            <attribute id="Description" type="TranslatedString" handle="hdd19c91fg464dg41cag8f7fgc2fb1d47bd36" version="1" />   description sub race
-            <attribute id="DisplayName" type="TranslatedString" handle="h13a2550cg5f60g496agaf59gb46720dbc14a" version="1" />   name subrace
-            <attribute id="DisplayTypeUUID" type="guid" value="899d275e-9893-490a-9cd5-be856794929f" /> leave this as humanoid
-            <attribute id="Name" type="FixedString" value="Impetus_Race_SubRace" />       internal name for subrace
-            <attribute id="ParentGuid" type="guid" value="3a63cb45-2c8a-4ebf-a285-3ae2d24b6f84" />      subrace of Custom Race Main
-            <attribute id="ProgressionTableUUID" type="guid" value="cba9313a-c5c0-40ba-bf2d-89b803d0e965" />    the level up stuff under the Progressions folder, diff from main race
-            <attribute id="RaceSoundSwitch" type="FixedString" value="Dragonborn" />           sound it makes when you select the subrace
-            <attribute id="UUID" type="guid" value="5f37cf54-fa5b-4559-9e0c-0d3d61c05fd3" /> Race UUID, keep this for adding hairs etc
-                <children>                 
-                </children>
-        </node>
       </children>
     </node>
   </region>
