@@ -48,7 +48,7 @@
                   <attribute id="Level" type="uint8" value="10" /> which level the progression is for
                   <attribute id="Name" type="LSString" value="Main_Race_10" /> just an internal name
                   <attribute id="Boosts" type="LSString" value="" /> 
-                  <attribute id="PassivesAdded" type="LSString" value="" /> passives from stats folder here
+                  <attribute id="PassivesAdded" type="LSString" value="Passive_TwistingChomp" /> passives from stats folder here
                   <attribute id="Selectors" type="LSString" value="" /> this is a single spell being added
                   <attribute id="ProgressionType" type="uint8" value="2" /> 2 means race
                   <attribute id="TableUUID" type="guid" value="cbbbf2e4-a580-4255-b4a9-0a27f9938a67" /> Always use this one for races.lsx, says this progression node is for Main Race
@@ -63,16 +63,6 @@
                   <attribute id="ProgressionType" type="uint8" value="2" /> 2 means race
                   <attribute id="TableUUID" type="guid" value="63052b18-f60a-4781-967c-1a609ff226df" /> Always use this one for races.lsx, says this progression node is for Sub Race
                   <attribute id="UUID" type="guid" value="2976d3c9-263f-418f-955f-4dd9e42d6d0e" />  this one must be unique
-          </node>
-        <node id="Progression">
-                  <attribute id="Level" type="uint8" value="1" /> which level the progression is for
-                  <attribute id="Name" type="LSString" value="Sub_Race_1" /> just an internal name
-                  <attribute id="Boosts" type="LSString" value="" /> 
-                  <attribute id="PassivesAdded" type="LSString" value="Passive_TwistingChomp" /> passives from stats folder here
-                  <attribute id="Selectors" type="LSString" value="" /> you can add spells here
-                  <attribute id="ProgressionType" type="uint8" value="2" /> 2 means race
-                  <attribute id="TableUUID" type="guid" value="cba9313a-c5c0-40ba-bf2d-89b803d0e965" /> Always use this one for races.lsx, says this progression node is for Sub Race
-                  <attribute id="UUID" type="guid" value="48c3f5ed-9496-49aa-add0-e94228b1e4c2" />  this one must be unique
           </node>
       </children>
     </node>
