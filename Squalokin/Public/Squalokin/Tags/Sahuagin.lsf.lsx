@@ -4,11 +4,11 @@
 	<region id="Tags">
 		<node id="Tags">
 			<attribute id="Description" type="LSString" value="|CUSTOM MAIN RACE|" />
-			<attribute id="DisplayDescription" type="TranslatedString" handle="h7f93509dg10f6g4dafga9e7gcb64447f632c" version="1" />
-			<attribute id="DisplayName" type="TranslatedString" handle="h6249cc7fg5d32g4596g8622g60c50d7e02d4" version="1" />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h0f02825dg104eg4f4dg8c06g2b6d32154f0f" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h8a37aaefg2b32g4d58ga27eg159ff8a4e222" version="1" />
 			<attribute id="Icon" type="FixedString" value="" />
-			<attribute id="Name" type="FixedString" value="SQUALOKIN" />
-			<attribute id="UUID" type="guid" value="a6d034e9-3696-493b-aa75-c7ddc1cdf483" />
+			<attribute id="Name" type="FixedString" value="Sahuagin" />
+			<attribute id="UUID" type="guid" value="8fb2f229-3748-43ad-9f2b-af7781279dff" />
 			<children>
 				<node id="Categories">
 					<children>
