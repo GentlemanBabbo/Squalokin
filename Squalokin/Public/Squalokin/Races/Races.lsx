@@ -14,6 +14,23 @@
             <attribute id="RaceSoundSwitch" type="FixedString" value="Dragonborn" />           sound it makes when you select the race
             <attribute id="UUID" type="guid" value="3a63cb45-2c8a-4ebf-a285-3ae2d24b6f84" /> Race UUID, keep this for adding hairs etc
                 <children>
+                    <!--Race Tags-->
+                        <!--Beastial-->
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="92aae5aa-4595-4f1c-96d2-9e2499d35c6f"/>
+                        </node>
+                        <!--Rare-->
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="d2f86ec3-c41f-47e1-8acd-984872a4d7d5"/>
+                        </node>
+                        <!--Underdark-->
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="2d0a73b9-f113-4d35-bdee-a31ab9163d74"/>
+                        </node>
+                        <!--Sailor-->
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0"/>
+                        </node>
                         <node id="EyeColors">
                             <attribute id="Object" type="guid" value="b3c6b283-d4ba-48e1-99fc-e45623880b33"/>
                         </node>
@@ -817,9 +834,6 @@
                         </node>
                         <node id="SkinColors">
                             <attribute id="Object" type="guid" value="f644533c-0f99-44f7-88b1-0e9e7dc3c94d"/>
-                        </node>
-                        <node id="Tags">
-                            <attribute id="Object" type="guid" value="02e5e9ed-b6b2-4524-99cd-cb2bc84c754a"/>
                         </node>
                         <node id="SkinColors">
                             <attribute id="Object" type="guid" value="1f935170-73e7-4e51-a9b9-9ac3b986c7dd"/>
