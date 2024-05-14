@@ -4,11 +4,11 @@
 	<region id="Tags">
 		<node id="Tags">
 			<attribute id="Description" type="LSString" value="|CUSTOM SUBRACE|" />
-			<attribute id="DisplayDescription" type="TranslatedString" handle="hadac7b69g050ag4792gb8dbgdf70f1d297e4" version="1" />
-			<attribute id="DisplayName" type="TranslatedString" handle="h8b6b17e3g220bg4682g818bg45757c672e25" version="1" />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="hdea75f7fg816cg4accga57agc582d30af2c1" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h4c2309e8g7832g4c6cgb79agb5cba31d35b6" version="1" />
 			<attribute id="Icon" type="FixedString" value="" />
-			<attribute id="Name" type="FixedString" value="Custom_Sub_Race" />
-			<attribute id="UUID" type="guid" value="9bd0f5f0-d325-4340-8270-930a4a4cb3d7" />
+			<attribute id="Name" type="FixedString" value="Sekolah-Sworn" />
+			<attribute id="UUID" type="guid" value="c3c3a5f4-c088-4be3-8b11-deebc10bca76" />
 			<children>
 				<node id="Categories">
 					<children>
