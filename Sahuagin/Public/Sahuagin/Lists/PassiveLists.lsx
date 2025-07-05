@@ -5,7 +5,7 @@
         <node id="root">
             <children>
                 <node id="PassiveList">
-                    <attribute id="Passives" type="LSString" value="Squalokin_BiteAnimTag"/> the passive list
+                    <attribute id="Passives" type="LSString" value="Sahuagin_BiteAnimTag"/> the passive list
                     <attribute id="UUID" type="guid" value="9d70bad6-c0b4-4089-94ff-36d492d1b18a"/> the UUID, needs to be unique
                 </node>
                 <node id="PassiveList">
@@ -25,7 +25,7 @@
                     <attribute id="UUID" type="guid" value="19b5692a-6cf9-4b76-8752-6108b6c27647"/> the UUID, needs to be unique
                 </node>
                 <node id="PassiveList">
-                    <attribute id="Passives" type="LSString" value="Squalokin_Critical"/> the passive list
+                    <attribute id="Passives" type="LSString" value="Sahuagin_Critical"/> the passive list
                     <attribute id="UUID" type="guid" value="1c31615c-e587-468e-a97c-1e1487454d78"/> the UUID, needs to be unique
                 </node>
                 <node id="PassiveList">

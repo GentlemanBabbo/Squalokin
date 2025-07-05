@@ -1,6 +1,6 @@
 <!--------------------- Custom Race Passives --------------------->
 
-new entry "Squalokin_Race_Passives"
+new entry "Sahuagin_Race_Passives"
 type "PassiveData"
 data "DisplayName" "h18f631efgdfeeg4683gac99g72a7dff7e657"
 data "Description" "hb1c0e0d5g1cbag401agb788gc5a4fa133bac"
@@ -30,12 +30,12 @@ data "Boosts" "ActionResource(Movement,3,0)
 
 // Bite Animation Tag //
 
-new entry "Squalokin_BiteAnimTag"
+new entry "Sahuagin_BiteAnimTag"
 type "PassiveData"
 data "Properties" "IsHidden"
 data "DynamicAnimationTag" "aafbe780-d237-416e-9d05-e03070c9dbee"
 
-new entry "Squalokin_Critical"
+new entry "Sahuagin_Critical"
 type "PassiveData"
 data "DisplayName" "h10624745g5613g407bg9aefg7788492f5cde;1"
 data "Properties" "IsHidden"
@@ -99,24 +99,24 @@ data "TargetEffect" "dc2d6fa3-5fe4-4aa0-bc5e-20213fd4e065"
 data "Sheathing" "Sheathed"
 data "DamageType" "Piercing"
 
-new entry "Shout_Rage_Squalokin"
+new entry "Shout_Rage_Sahuagin"
 type "SpellData"
 data "SpellType" "Shout"
 using "Shout_Rage"
 data "Cooldown" "OncePerShortRest"
-data "SpellProperties" "AI_IGNORE:ApplyStatus(RAGE_SQUALOKIN,100,10);AI_ONLY:IF(HasActionResource('ActionPoint', 1, 0, false)):ApplyStatus(AI_HELPER_RAGE,100,1)"
+data "SpellProperties" "AI_IGNORE:ApplyStatus(RAGE_Sahuagin,100,10);AI_ONLY:IF(HasActionResource('ActionPoint', 1, 0, false)):ApplyStatus(AI_HELPER_RAGE,100,1)"
 data "Icon" "Action_Barbarian_Frenzy"
 data "DisplayName" "h2b362a40g878fg48e8gabdbg93c6bf21c001;2"
 data "Description" "h3b15f2acg0785g4590g9016g99850812dfe0;18"
-data "TooltipStatusApply" "ApplyStatus(RAGE_SQUALOKIN,100,10)"
+data "TooltipStatusApply" "ApplyStatus(RAGE_Sahuagin,100,10)"
 data "CastSound" "Action_Cast_Rage"
 data "TargetSound" "Action_Impact_Rage"
 data "UseCosts" "ActionPoint:1"
-data "RequirementConditions" "not HasStatus('RAGE_SQUALOKIN') and not HasStatus('CALM_EMOTIONS')"
+data "RequirementConditions" "not HasStatus('RAGE_Sahuagin') and not HasStatus('CALM_EMOTIONS')"
 data "PrepareEffect" "63816502-951b-4242-a9a2-fa8b5228f18a"
 data "CastEffect" "d314aed0-4fb5-44dc-98c4-614297017694"
 
-new entry "RAGE_SQUALOKIN"
+new entry "RAGE_Sahuagin"
 type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "hf8d85c57g0bfdg4bc9g9f63g3c8e830eb00d;1"

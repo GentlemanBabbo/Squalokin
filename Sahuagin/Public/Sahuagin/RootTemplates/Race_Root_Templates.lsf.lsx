@@ -6,7 +6,7 @@
 			<children>
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="0e510540-cdf9-4d99-a264-113a4326d5bf" /> must be unique
-					<attribute id="Name" type="LSString" value="BASE_Main_Female_Squalokin" />
+					<attribute id="Name" type="LSString" value="BASE_Main_Female_Sahuagin" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="366faff6-1e72-45c8-8d03-4eeaee6444a4" /> base elf reference
 					<attribute id="Icon" type="FixedString" value="24bcc44f-4168-1468-222a-b1bb6370e000-_(Icon_Elf_Female)" />
@@ -26,7 +26,7 @@
 				</node>
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="81495b29-8ea7-43ec-af6e-5fb1adc95048" /> must be unique
-					<attribute id="Name" type="LSString" value="BASE_Main_Male_Squalokin" />
+					<attribute id="Name" type="LSString" value="BASE_Main_Male_Sahuagin" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="97ad09df-c188-4e39-bfd0-91c95c6379c4" /> base elf reference
 					<attribute id="Icon" type="FixedString" value="4c8affee-8495-7a94-6506-bf050e0e091a-_(Icon_Elf_Male)" />
@@ -46,7 +46,7 @@
 				</node>
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="34c7c513-030a-43ec-8336-9befd735c00c" /> must be unique
-					<attribute id="Name" type="LSString" value="Squalokin_Female_Daku_Player" />
+					<attribute id="Name" type="LSString" value="Sahuagin_Female_Daku_Player" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="0e510540-cdf9-4d99-a264-113a4326d5bf" />
@@ -81,7 +81,7 @@
 				</node>
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="266448e6-f110-4328-b69d-44f0d5561413" /> must be unique
-					<attribute id="Name" type="LSString" value="Squalokin_Male_Daku_Player" />
+					<attribute id="Name" type="LSString" value="Sahuagin_Male_Daku_Player" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="81495b29-8ea7-43ec-af6e-5fb1adc95048" />

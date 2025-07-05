@@ -148,7 +148,7 @@
 					<attribute id="HairType" type="uint8" value="0" />
 					<attribute id="ID" type="FixedString" value="9e218117-dd2d-4f86-8cef-699392d59530" />
 					<attribute id="MaterialType" type="uint8" value="18" />
-					<attribute id="Name" type="LSString" value="SQUALOKIN_F_NKD" />
+					<attribute id="Name" type="LSString" value="Sahuagin_F_NKD" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="RemapperSlotId" type="FixedString" value="" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -156,9 +156,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="NakedBody" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="84afe2c6-7201-0f74-edea-7ff93f7c6597" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Squalokin/[PAK]_SQUALOKIN_Body/SQUALOKIN_F_Body/Squalokin_F_NKD_Body.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Sahuagin/[PAK]_Sahuagin_Body/Sahuagin_F_Body/Sahuagin_F_NKD_Body_A.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/Squalokin/[PAK]_SQUALOKIN_Body/SQUALOKIN_F_Body/Squalokin_F_NKD_Body.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Sahuagin/[PAK]_Sahuagin_Body/Sahuagin_F_Body/Sahuagin_F_NKD_Body_A.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
 					<children>
 						<node id="Base" />
@@ -166,17 +166,17 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" /> Body
 							<attribute id="MaterialID" type="FixedString" value="3046c971-6caf-abe6-5e9a-0149cf60d085" />
-							<attribute id="ObjectID" type="FixedString" value="Squalokin_F_NKD_Body.DGB_F_NKD_Body_A_Mesh.0" />
+							<attribute id="ObjectID" type="FixedString" value="Sahuagin_F_NKD_Body_A.DGB_F_NKD_Body_A_Mesh.0" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" /> BackFin
 							<attribute id="MaterialID" type="FixedString" value="3046c971-6caf-abe6-5e9a-0149cf60d085" />
-							<attribute id="ObjectID" type="FixedString" value="Squalokin_F_NKD_Body.2_SHARK_BackFin.1" />
+							<attribute id="ObjectID" type="FixedString" value="Sahuagin_F_NKD_Body_A.2_SHARK_BackFin.1" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" /> Other Fins
 							<attribute id="MaterialID" type="FixedString" value="3046c971-6caf-abe6-5e9a-0149cf60d085" />
-							<attribute id="ObjectID" type="FixedString" value="Squalokin_F_NKD_Body.3_SHARK_ChestFins.1" />
+							<attribute id="ObjectID" type="FixedString" value="Sahuagin_F_NKD_Body_A.3_SHARK_ChestFins.1" />
 						</node>
 					</children>
 				</node>

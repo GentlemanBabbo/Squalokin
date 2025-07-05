@@ -8,7 +8,7 @@
                   <attribute id="Level" type="uint8" value="1" /> which level the progression is for
                   <attribute id="Name" type="LSString" value="Main_Race_1" /> just an internal name
                   <attribute id="Boosts" type="LSString" value="" /> 
-                  <attribute id="PassivesAdded" type="LSString" value="Squalokin_Race_Passives;Squalokin_BiteAnimTag;Passive_Amphibious" /> passives from stats folder here
+                  <attribute id="PassivesAdded" type="LSString" value="Sahuagin_Race_Passives;Sahuagin_BiteAnimTag;Passive_Amphibious" /> passives from stats folder here
                   <attribute id="Selectors" type="LSString" value="AddSpells(e5f473c8-b032-465b-aec6-c9b691b96276);SelectSkills(38ab155d-e206-46cd-b47d-746466f274ff,2)" />see below for explanation
                   <attribute id="ProgressionType" type="uint8" value="2" /> 2 means race
                   <attribute id="TableUUID" type="guid" value="cbbbf2e4-a580-4255-b4a9-0a27f9938a67" /> Always use this one for races.lsx, says this progression node is for Main Race
@@ -28,7 +28,7 @@
                   <attribute id="Level" type="uint8" value="5" /> which level the progression is for
                   <attribute id="Name" type="LSString" value="Main_Race_5" /> just an internal name
                   <attribute id="Boosts" type="LSString" value="" /> 
-                  <attribute id="PassivesAdded" type="LSString" value="Squalokin_Critical" /> passives from stats folder here
+                  <attribute id="PassivesAdded" type="LSString" value="Sahuagin_Critical" /> passives from stats folder here
                   <attribute id="Selectors" type="LSString" value="" /> this is a single spell being added
                   <attribute id="ProgressionType" type="uint8" value="2" /> 2 means race
                   <attribute id="TableUUID" type="guid" value="cbbbf2e4-a580-4255-b4a9-0a27f9938a67" /> Always use this one for races.lsx, says this progression node is for Main Race
