@@ -15,9 +15,9 @@
 					<attribute id="PreviewVisualResource" type="FixedString" value="" />
 					<attribute id="RagdollResourceID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Sahuagin/[PAK]_Sahuagin_Head/Sahuagin_M_NKD_Head_A_Base.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Sahuagin/[PAK]_SAHUAGIN_Head/Sahuagin_M_NKD_Head_A_base.GR2" />
 					<attribute id="SpringResourceID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/Sahuagin/[PAK]_Sahuagin_Head/Sahuagin_M_NKD_Head_A_Base.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Sahuagin/[PAK]_SAHUAGIN_Head/Sahuagin_M_NKD_Head_A_base.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144396663052566828" />
 					<children>
 						<node id="Bones">
@@ -4398,9 +4398,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="1" />
 					<attribute id="Slot" type="FixedString" value="Head" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Sahuagin/[PAK]_Sahuagin_Head/Sahuagin_M_Head_A.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Sahuagin/[PAK]_SAHUAGIN_Head/Sahuagin_M_NKD_Head_A.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/Sahuagin/[PAK]_Sahuagin_Head/Sahuagin_M_Head_A.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Sahuagin/[PAK]_SAHUAGIN_Head/Sahuagin_M_NKD_Head_A.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725665" />
 					<children>
 						<node id="AnimationSetOverrides">
@@ -4427,27 +4427,27 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="13b99793-02ff-865a-cdf0-44424c4a87d0" />
-							<attribute id="ObjectID" type="FixedString" value="Sahuagin_M_Head_A.1_SAHGIN_Head_A_Mesh.0" />
+							<attribute id="ObjectID" type="FixedString" value="Sahuagin_M_NKD_Head_A.1_SAHGIN_Head_A_Mesh.0" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="33ad9eb6-e4b1-3243-5eb4-932c2678c035" />
-							<attribute id="ObjectID" type="FixedString" value="Sahuagin_M_Head_A.2_SAHGIN_MS_NKD_Head_A_Mouth_Interior_Mesh.1" />
+							<attribute id="ObjectID" type="FixedString" value="Sahuagin_M_NKD_Head_A.2_SAHGIN_MS_NKD_Head_A_Mouth_Interior_Mesh.1" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="139d7540-7c20-e1ab-0c41-9126c5ff828d" />
-							<attribute id="ObjectID" type="FixedString" value="Sahuagin_M_Head_A.3_SAHGIN_MS_NKD_Head_B_Remap_Eyes_Mesh.2" />
+							<attribute id="ObjectID" type="FixedString" value="Sahuagin_M_NKD_Head_A.3_SAHGIN_MS_NKD_Head_B_Remap_Eyes_Mesh.2" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="b09f1893-d49d-483e-2dc7-0a989741aa9e" />
-							<attribute id="ObjectID" type="FixedString" value="Sahuagin_M_Head_A.4_SAHGIN_MS_NKD_Head_B_Remap_Eyeshadow_Mesh.4" />
+							<attribute id="ObjectID" type="FixedString" value="Sahuagin_M_NKD_Head_A.4_SAHGIN_MS_NKD_Head_B_Remap_Eyeshadow_Mesh.4" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="8089f3a7-638b-1768-b6a4-43e1b0892e23" />
-							<attribute id="ObjectID" type="FixedString" value="Sahuagin_M_Head_A.5_SAHGIN_MS_NKD_Head_A_Tearline_Mesh.3" />
+							<attribute id="ObjectID" type="FixedString" value="Sahuagin_M_NKD_Head_A.5_SAHGIN_MS_NKD_Head_A_Tearline_Mesh.3" />
 						</node>
 					</children>
 				</node>
