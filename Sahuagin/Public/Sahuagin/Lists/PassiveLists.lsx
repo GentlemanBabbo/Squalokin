@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="307"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="Squalokin_BiteAnimTag"/> the passive list
+                    <attribute id="UUID" type="guid" value="9d70bad6-c0b4-4089-94ff-36d492d1b18a"/> the UUID, needs to be unique
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="Passive_Amphibious"/> the passive list
+                    <attribute id="UUID" type="guid" value="1f84cf2c-1835-42ac-98bd-f7d49da15371"/> the UUID, needs to be unique
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="Passive_AnkleBite"/> the passive list
+                    <attribute id="UUID" type="guid" value="75c402dc-3617-4530-971d-496d5e8a2764"/> the UUID, needs to be unique
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="Passive_TwistingChomp"/> the passive list
+                    <attribute id="UUID" type="guid" value="638843fe-380f-48e0-84a8-77d81fcac92f"/> the UUID, needs to be unique
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="Passive_Deep_Predator"/> the passive list
+                    <attribute id="UUID" type="guid" value="19b5692a-6cf9-4b76-8752-6108b6c27647"/> the UUID, needs to be unique
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="Squalokin_Critical"/> the passive list
+                    <attribute id="UUID" type="guid" value="1c31615c-e587-468e-a97c-1e1487454d78"/> the UUID, needs to be unique
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="FinishingStrike"/> the passive list
+                    <attribute id="UUID" type="guid" value="a424a7c9-ccb9-42d5-978f-3f0f99bdb9db"/> the UUID, needs to be unique
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
