@@ -9,7 +9,7 @@
 					<attribute id="BodySetVisual" type="FixedString" value="faa33c51-cfb8-4d71-9d1f-279b83800750" /> body model
 					<attribute id="ID" type="FixedString" value="d49e0b67-5119-4ba4-a66c-7e414f075bba" /> must be unique		
 					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="BASE_Main_Male_Squalokin" />	localised name
+					<attribute id="Name" type="LSString" value="BASE_Main_Male_Sahuagin" />	localised name
 					<attribute id="ShowEquipmentVisuals" type="bool" value="True" />	does it display equipped armour?
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725056" />
 					<children>
@@ -48,7 +48,7 @@
 					<attribute id="BodySetVisual" type="FixedString" value="9e218117-dd2d-4f86-8cef-699392d59530" />
 					<attribute id="ID" type="FixedString" value="201d1d88-c8e9-4eb4-83a9-a65f7e554e9c" />
 					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="BASE_Main_Female_Squalokin" />					
+					<attribute id="Name" type="LSString" value="BASE_Main_Female_Sahuagin" />					
 					<attribute id="ShowEquipmentVisuals" type="bool" value="True" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725056" />
 					<children>

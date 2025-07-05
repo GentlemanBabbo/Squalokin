@@ -9,7 +9,7 @@
 					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
 					<attribute id="ID" type="FixedString" value="6f16e92e-9481-437f-b076-a468e9075ed9" />
 					<attribute id="MaterialType" type="uint8" value="18" />
-					<attribute id="Name" type="LSString" value="SQUALOKIN_M_NKD" />
+					<attribute id="Name" type="LSString" value="Sahuagin_M_NKD" />
 					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_Skin_Body.lsf" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144678138029277484" />
 					<children>
@@ -629,7 +629,7 @@
 					<attribute id="HairType" type="uint8" value="0" />
 					<attribute id="ID" type="FixedString" value="faa33c51-cfb8-4d71-9d1f-279b83800750" />
 					<attribute id="MaterialType" type="uint8" value="18" />
-					<attribute id="Name" type="LSString" value="Squalokin_M_NKD_Body" />
+					<attribute id="Name" type="LSString" value="Sahuagin_M_NKD_Body" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="RemapperSlotId" type="FixedString" value="" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -637,9 +637,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="NakedBody" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="e80f5bba-dae0-fdea-1874-ba11c52906c3" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Squalokin/[PAK]_SQUALOKIN_Body/SQUALOKIN_M_Body/Squalokin_M_NKD_Body.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Sahuagin/[PAK]_Sahuagin_Body/Sahuagin_M_Body/Sahuagin_M_NKD_Body.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/Squalokin/[PAK]_SQUALOKIN_Body/SQUALOKIN_M_Body/Squalokin_M_NKD_Body.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Sahuagin/[PAK]_Sahuagin_Body/Sahuagin_M_Body/Sahuagin_M_NKD_Body.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
 					<children>
 						<node id="AnimationWaterfall">
@@ -650,7 +650,7 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" /> Body
 							<attribute id="MaterialID" type="FixedString" value="3046c971-6caf-abe6-5e9a-0149cf60d085" />
-							<attribute id="ObjectID" type="FixedString" value="Squalokin_M_NKD_Body.SHARK_M_NKD_Body_A_Mesh.0" />
+							<attribute id="ObjectID" type="FixedString" value="Sahuagin_M_NKD_Body.Sahuagin_M_NKD_Body_A_Mesh.0" />
 						</node>
 					</children>
 				</node>
